@@ -1,0 +1,66 @@
+/* layout styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "navbar mainbar"
+    "sidebar mainbar"
+    "sidebar mainbar";
+  gap: 20px;
+}
+
+header {
+  grid-area: navbar;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+main {
+  grid-area: mainbar;
+}
+
+/* header styling */
+header {
+  height: 200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 2vw;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.login {
+  padding-right: 5px;
+  border-right: 2px solid black;
+}
+
+/* mainbar styling */
+
+main {
+  background-color: #f3f5f2;
+}

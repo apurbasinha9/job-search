@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "title": "Frontend Developer",
+    "company": "TechNova",
+    "location": "Remote",
+    "category": "Frontend",
+    "type": "Full-time",
+    "description": "Seeking a frontend developer proficient in HTML, CSS, and JavaScript."
+  },
+  {
+    "id": "2",
+    "title": "Backend Developer",
+    "company": "CodeWorks",
+    "location": "New York, NY",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Looking for a Node.js backend developer with API experience."
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Designer",
+    "company": "Designly",
+    "location": "San Francisco, CA",
+    "category": "Design",
+    "type": "Contract",
+    "description": "Creative UI/UX designer needed for a 3-month mobile app project."
+  },
+  {
+    "id": "4",
+    "title": "Full Stack Engineer",
+    "company": "DevStack",
+    "location": "Remote",
+    "category": "Full Stack",
+    "type": "Part-time",
+    "description": "Join a fast-paced team building full stack apps with React and Node.js."
+  },
+  {
+    "id": "5",
+    "title": "Graphic Designer",
+    "company": "PixelCraft",
+    "location": "Austin, TX",
+    "category": "Design",
+    "type": "Full-time",
+    "description": "Work on branding and digital assets for clients."
+  },
+  {
+    "id": "6",
+    "title": "React Developer",
+    "company": "FrontendHero",
+    "location": "Remote",
+    "category": "Frontend",
+    "type": "Full-time",
+    "description": "Looking for a React developer with experience in Redux and hooks."
+  },
+  {
+    "id": "7",
+    "title": "Database Administrator",
+    "company": "DataCore",
+    "location": "Toronto, ON",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Manage and optimize SQL and NoSQL databases."
+  },
+  {
+    "id": "8",
+    "title": "Junior Web Developer",
+    "company": "StartupLoop",
+    "location": "Remote",
+    "category": "Frontend",
+    "type": "Internship",
+    "description": "Intern role for a junior dev eager to learn modern web technologies."
+  },
+  {
+    "id": "9",
+    "title": "Product Designer",
+    "company": "FlowLabs",
+    "location": "Remote",
+    "category": "Design",
+    "type": "Full-time",
+    "description": "Create product wireframes and prototypes with a user-first mindset."
+  },
+  {
+    "id": "10",
+    "title": "Python Backend Engineer",
+    "company": "DataOps",
+    "location": "Boston, MA",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Build scalable backend systems using Python and Django."
+  },
+  {
+    "id": "11",
+    "title": "Mobile Developer",
+    "company": "AppSphere",
+    "location": "Vancouver, BC",
+    "category": "Full Stack",
+    "type": "Full-time",
+    "description": "Develop cross-platform mobile apps using Flutter or React Native."
+  },
+  {
+    "id": "12",
+    "title": "Technical Writer",
+    "company": "Docsify",
+    "location": "Remote",
+    "category": "Design",
+    "type": "Contract",
+    "description": "Document internal APIs and user guides for engineers."
+  },
+  {
+    "id": "13",
+    "title": "DevOps Engineer",
+    "company": "CloudBase",
+    "location": "Chicago, IL",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Setup CI/CD pipelines and manage cloud infrastructure (AWS, GCP)."
+  },
+  {
+    "id": "14",
+    "title": "Frontend Intern",
+    "company": "WebSpark",
+    "location": "Remote",
+    "category": "Frontend",
+    "type": "Internship",
+    "description": "Assist in building UI components with vanilla JS and CSS."
+  },
+  {
+    "id": "15",
+    "title": "WordPress Developer",
+    "company": "ThemeForge",
+    "location": "London, UK",
+    "category": "Frontend",
+    "type": "Part-time",
+    "description": "Customize themes and manage WordPress content for clients."
+  },
+  {
+    "id": "16",
+    "title": "System Architect",
+    "company": "InfraBuild",
+    "location": "Seattle, WA",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Design scalable software systems and mentor junior engineers."
+  },
+  {
+    "id": "17",
+    "title": "UI Designer",
+    "company": "SketchZone",
+    "location": "Remote",
+    "category": "Design",
+    "type": "Full-time",
+    "description": "Design and maintain UI design systems and components."
+  },
+  {
+    "id": "18",
+    "title": "JavaScript Developer",
+    "company": "JS World",
+    "location": "Berlin, Germany",
+    "category": "Frontend",
+    "type": "Contract",
+    "description": "Build interactive web apps with modern JavaScript (ES6+)."
+  },
+  {
+    "id": "19",
+    "title": "Machine Learning Engineer",
+    "company": "AI Hub",
+    "location": "San Jose, CA",
+    "category": "Backend",
+    "type": "Full-time",
+    "description": "Train and deploy machine learning models for predictive analytics."
+  },
+  {
+    "id": "20",
+    "title": "Junior Full Stack Developer",
+    "company": "CodeNest",
+    "location": "Remote",
+    "category": "Full Stack",
+    "type": "Full-time",
+    "description": "Entry-level role for full stack developers with React and Node.js."
+  }
+]
