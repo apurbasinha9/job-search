@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Deal</title>
+    <style>
+      #wrapper {
+        text-align: center;
+      }
+
+      button {
+        padding: 50px;
+        font-size: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <button id="minus">-</button>
+      <h1 id="result">0</h1>
+      <button id="plus">+</button>
+    </div>
+
+    <script>
+      let minus = document.getElementById("minus");
+      let plus = document.getElementById("plus");
+      let result = document.getElementById("result");
+
+      minus.addEventListener("click", function () {
+        stringToInt -= 1;
+        result.textContent = stringToInt;
+        localStorage.setItem("counter", stringToInt);
+      });
+
+      plus.addEventListener("click", function () {
+        stringToInt += 1;
+        result.textContent = stringToInt;
+        localStorage.setItem("counter", stringToInt);
+      });
+
+      let saved = localStorage.getItem("counter");
+      let stringToInt = isNaN(parseInt(saved)) ? 0 : parseInt(saved);
+      result.textContent = stringToInt;
+    </script>
+  </body>
+</html>
