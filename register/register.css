@@ -1,0 +1,10 @@
+*y {
+  font-family: "Open Sans", sans-serif;
+}
+
+input {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
