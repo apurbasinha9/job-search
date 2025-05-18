@@ -1,72 +1,101 @@
-body{
-    background-color: white;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: sans-serif;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.container{
-    width: 350px;
-    padding: 20px;
-    text-align: center;
-    background-color: wheat;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+body {
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    gap: 10px;
-    
-
-   
+.container {
+  width: 30%;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
 }
 
 h1 {
-    align-self: center;
-    text-align: center;
-    
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #646464;
+  font-size: 2.5vw;
 }
 
-label{
-    font-weight: bold;
+#email {
+  margin-bottom: 15px;
 }
 
-button{
-    align-self: center;
+label {
+  color: #646464;
+  margin-bottom: 8px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #60a5fa;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.55vw;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.btn:hover {
+  background-color: rgb(67, 100, 161);
+}
+.not-registered {
+  text-align: center;
+}
+
+#sign-up {
+  text-decoration: none;
+  font-weight: bold;
+  color: #60a5fa;
+}
+
+.not-registered {
+  color: #646464;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.forgot-password {
+  margin: 10px 0 8px 0;
+  text-decoration: none;
+  color: #316cb4;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  .container {
     width: 100%;
-    padding: 12px;
-    background-color: rgb(100, 149, 237);
-    color: aliceblue;
-    border: none;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    
+    padding: 50px 20px;
+  }
 
+  h1 {
+    font-size: 5vw;
+  }
 
-}
-.not-registered{
-    align-self: center;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(100, 149, 237);
-}
-
-input{
-    width: 90%;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
-    
+  .btn {
+    font-size: 3vw;
+  }
 }
