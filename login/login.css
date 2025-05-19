@@ -14,12 +14,20 @@ body {
 }
 
 .container {
-  width: 30%;
-  padding: 30px;
-  background-color: white;
+  width: 100%; /* w-full */
+  max-width: 28rem; /* max-w-md (448px) */
+  margin-left: auto; /* mx-auto */
+  margin-right: auto;
+  background-color: #ffffff; /* bg-white */
+  padding: 2rem; /* p-8 (32px) */
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+  justify-content: center; /* justify-center */
+}
+
+.input-group {
   display: flex;
   flex-direction: column;
-  /* gap: 10px; */
 }
 
 h1 {
@@ -71,7 +79,7 @@ label {
 input {
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid black;
   margin-bottom: 0.5rem;
 }
