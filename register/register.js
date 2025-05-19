@@ -33,20 +33,34 @@ btn.addEventListener("click", (e) => {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
+  const db = getFirestore();
+
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       const user = userCredential.user;
-      window.location.href = "../login/login.html";
+      console.log(user.uid);
 
-      //   const userData = {
-      //     fullName: fname,
-      //     email: email,
-      //     password: password,
-      //   };
+      const userData = {
+        fullName: fname,
+        email: email,
+      };
+
+      const docRef = doc(db, "users", user.uid);
+      setDoc(docRef, userData)
+        .then(() => {
+          console.log("userdata succ", userData);
+
+          window.location.href = "../login/login.html";
+        })
+        .catch((error) => {
+          console.log("error: ", error);
+        });
     })
     .catch((error) => {
       const errorCode = error.code;
-      const errorMessage = error.message;
+      if (errorCode == "auth/email-already-in-use") {
+        alert(errorCode);
+      }
       // ..
     });
 });
