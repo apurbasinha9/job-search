@@ -1,4 +1,3 @@
-
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
 import {
   getAuth,
@@ -35,19 +34,11 @@ btn.addEventListener("click", (e) => {
       const errorCode = error.code;
       const errorMessage = error.message;
     });
-
-    
 });
 
+const backBtn = document.getElementById("back");
 
-//back button functionality
-
-document.addEventListener("DOMContentLoaded", () => {
-  const backBtn = document.getElementById("back");
-
-  if (backBtn) {
-    backBtn.addEventListener("click", function (e) {
-      e.preventDefault();
-      window.history.back();
-    });
-  }
+backBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  window.location.href = "../index.html";
+});
