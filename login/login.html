@@ -3,32 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="login.css" />
-
+    <script type="module" src="login.js" defer></script>
     <title>login</title>
   </head>
   <body>
     <form class="container" action="#">
+<<<<<<< HEAD
       <div class="header">
         <button class="back" id="back">&#8592;</button>
         <h1>Login</h1>
       </div>
+=======
+      <h1>Login</h1>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+>>>>>>> ff4b6221e451a3393e5307b2964089bc3d442564
 
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="Email" />
-
-      <label for="password">Password</label>
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="Password"
-      />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
 
       <a href="#" class="forgot-password">Forgot my password</a>
 
-      <button class="btn">log in</button>
+      <button id="btn" class="btn">log in</button>
 
       <p class="not-registered">
         Don't have an account yet?
