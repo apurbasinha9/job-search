@@ -42,7 +42,7 @@ body {
 .back {
   background-color: transparent;
   border: none;
-  font-size: 3vw;
+  font-size: 2vw;
   cursor: pointer;
 }
 
@@ -51,7 +51,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   color: #646464;
-  font-size: 3.5vw;
+  font-size: 3vw;
   pointer-events: none;
 }
 
@@ -122,6 +122,6 @@ input {
   }
 
   .btn {
-    font-size: 3vw;
+    font-size: 5vw;
   }
 }

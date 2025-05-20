@@ -8,3 +8,23 @@ input {
   border-radius: 5px;
   width: 100%;
 }
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.backbtn {
+  background-color: transparent;
+  border: none;
+  font-size: 3vw;
+  cursor: pointer;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
