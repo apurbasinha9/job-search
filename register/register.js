@@ -69,6 +69,6 @@ const backBtn = document.getElementById("backBtn");
 if (backBtn) {
   backBtn.addEventListener("click", function (e) {
     e.preventDefault();
-    window.history.back();
+    window.location.href = "../index.html";
   });
 }
