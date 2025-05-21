@@ -18,6 +18,12 @@ body {
   gap: 20px;
 }
 
+aside {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
 header {
   grid-area: navbar;
 }
@@ -32,7 +38,8 @@ main {
 
 /* header styling */
 header {
-  height: 200px;
+  height: 100%;
+  background-color: aqua;
 }
 
 nav {
