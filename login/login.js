@@ -2,6 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebas
 import {
   getAuth,
   signInWithEmailAndPassword,
+  sendPasswordResetEmail,
 } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-auth.js";
 
 const firebaseConfig = {
@@ -41,4 +42,20 @@ const backBtn = document.getElementById("back");
 backBtn.addEventListener("click", function (e) {
   e.preventDefault();
   window.location.href = "../index.html";
+});
+
+//forget button functionality
+
+const forgetBtn = document.getElementById("forgetBtn");
+
+forgetBtn.addEventListener("click", function (e) {
+  e.preventDefault();
+  const email = document.getElementById("email").value;
+  sendPasswordResetEmail(auth, email)
+    .then(alert("Email sent"))
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // ..
+    });
 });
