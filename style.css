@@ -16,12 +16,7 @@ body {
     "sidebar mainbar"
     "sidebar mainbar";
   gap: 20px;
-}
-
-aside {
-  width: 100%;
-  height: 100%;
-  background-color: red;
+  padding: 20px;
 }
 
 header {
@@ -30,6 +25,15 @@ header {
 
 aside {
   grid-area: sidebar;
+  width: 100%;
+  height: 100%;
+  background-color: #f3f5f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 main {
@@ -64,6 +68,49 @@ nav {
 .login {
   padding-right: 5px;
   border-right: 2px solid black;
+}
+
+/*aside bar style*/
+
+.aside-contents {
+  display: flex;
+  height: 100%;
+}
+
+.aside-header {
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #6f6f6f;
+}
+
+.link-list {
+  list-style: none;
+  height: 100%;
+}
+
+aside li {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+aside a {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* mainbar styling */
