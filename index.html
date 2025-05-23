@@ -4,54 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="title">
-          <h1>Job-Hunt</h1>
+          <h1>findjobs.ca</h1>
         </div>
         <div class="navlinks">
-          <a href="login/login.html" class="login">Login</a>
+          <a href="login/login.html" class="signin">Signin</a>
           <a href="register/register.html" id="register" class="register"
-            >Register</a
+            >Signup</a
           >
         </div>
       </nav>
     </header>
 
-    <aside>
-      <div class="aside-contents">
-        <ul class="link-list">
-          <li>
-            <h3 class="aside-header">Company</h3>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-          </li>
-          <li>
-            <h3 class="aside-header">Quick Links</h3>
-            <a href="#">Browse Jobs</a>
-            <a href="#">Help</a>
-          </li>
-          <li>
-            <h3 class="aside-header">Legal</h3>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms and Conditions</a>
-          </li>
-        </ul>
-      </div>
-      <div class="socials">
-        <a href="#">FB</a>
-        <a href="#">IG</a>
-        <a href="#">iN</a>
-        <a href="#">Any</a>
-      </div>
-    </aside>
+    <aside></aside>
 
-    <main id="main-content">
-      <div class="top-container"></div>
-      <div class="bottom-container"></div>
+    <main id="main-content" class="main-content">
+      <div class="top-container">
+        <div class="search-container">
+          <input type="text" class="search-bar" placeholder="search jobs..." />
+          <button id="search-button" class="search-button">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <div class="branding-container">
+          <p class="branding">
+            "Connecting talent with opportunity—faster and smarter. At
+            <span class="branding-span">FindJobs.ca</span>
+            , we empower job seekers with
+            <span class="branding-span"
+              >AI-driven tools, real-time alerts, and expert career
+              support</span
+            >
+            to help you land the right job—every time."
+          </p>
+        </div>
+      </div>
+
+      <div class="middle-container">
+        <h2 class="company">Companies <i class="fa fa-arrow-right"></i></h2>
+        <div class="card-middle">
+          <div class="company-card">
+            <img
+              src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000"
+              alt=""
+            />
+          </div>
+          <div class="company-card">
+            <img
+              src="https://img.icons8.com/?size=100&id=21295&format=png&color=000000"
+              alt=""
+            />
+          </div>
+          <div class="company-card">
+            <img
+              src="https://img.icons8.com/?size=100&id=PvvcWRWxRKSR&format=png&color=000000"
+              alt=""
+            />
+          </div>
+          <div class="company-card">
+            <img
+              src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000"
+              alt=""
+            />
+          </div>
+          <div class="company-card">
+            <img
+              src="https://img.icons8.com/?size=100&id=20519&format=png&color=000000"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <h2 class="services">Services <i class="fa fa-arrow-right"></i></h2>
+        <div class="service-cards">
+          <div class="card">
+            <h3>AI Resume Builder</h3>
+            <p class="card-text">
+              Recommend jobs based on users’ skills, experience, and
+              preferences.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Smart Job Matching</h3>
+            <p class="card-text">
+              Help users create professional resumes instantly using AI.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Real-Time Job Alerts</h3>
+            <p class="card-text">
+              Notify users when new jobs matching their interests are posted.
+              lore
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Networking Tools</h3>
+            <p class="card-text">
+              Connect job seekers with professionals or mentors.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>

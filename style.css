@@ -15,8 +15,8 @@ body {
     "navbar mainbar"
     "sidebar mainbar"
     "sidebar mainbar";
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
 }
 
 header {
@@ -43,7 +43,7 @@ main {
 /* header styling */
 header {
   height: 100%;
-  background-color: aqua;
+  background-color: #f0f3f4;
 }
 
 nav {
@@ -52,22 +52,39 @@ nav {
   justify-content: center;
   align-items: center;
   height: 100%;
-  gap: 10px;
-  font-weight: bold;
+  gap: 30px;
 }
 
 .title {
   font-size: 2vw;
+  color: #5d5d5d;
+  letter-spacing: 1px;
 }
 
 .navlinks a {
   text-decoration: none;
   color: black;
+  border-radius: 5px;
+  padding: 15px 40px;
+  /* background-color: rgb(34 89 139); */
+  background-color: white;
+  color: #5d5d5d;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
 
-.login {
-  padding-right: 5px;
-  border-right: 2px solid black;
+.signin {
+  margin-right: 5px;
+}
+
+.signin:hover {
+  background-color: #5d5d5d;
+  color: white;
+}
+
+.register:hover {
+  background-color: #5d5d5d;
+  color: white;
 }
 
 /*aside bar style*/
@@ -115,6 +132,167 @@ aside a {
 
 /* mainbar styling */
 
-main {
-  background-color: #f3f5f2;
+.main-content {
+  background-color: #f0f3f4;
+  /* padding: 25px; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container,
+.middle-container,
+.bottom-container {
+  height: 33%;
+}
+
+/* top container styling */
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  height: 100%;
+}
+
+.search-container {
+  width: 80%;
+}
+
+.search-container {
+  display: flex;
+  gap: 5px;
+}
+
+.search-bar {
+  padding: 5px 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #727272;
+}
+
+.search-button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #727272;
+  color: white;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  background-color: #606060;
+  cursor: pointer;
+}
+
+.branding-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.branding {
+  line-height: 2rem;
+  color: #727272;
+  text-align: center;
+  width: 75%;
+}
+
+.branding-span {
+  font-weight: bold;
+}
+
+/* middle container styling */
+
+.middle-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.company {
+  margin-bottom: 1rem;
+  color: #727272;
+}
+
+.card-middle {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  height: 80%;
+}
+
+.company-card {
+  background-color: white;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.company-card:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+/* bottom container styling */
+
+.bottom-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+
+.services {
+  align-self: flex-start;
+  color: #727272;
+  margin-bottom: 1rem;
+}
+
+.service-cards {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: white;
+  height: 200px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card h3 {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+  color: #727272;
+}
+
+.card-text {
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* font-size: 1.2vw; */
+  letter-spacing: 0.5px;
+  color: #727272;
 }

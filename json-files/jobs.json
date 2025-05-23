@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "title": "Data Scientist",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$95k"
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Engineer",
+    "location": "Calgary",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$119k"
+  },
+  {
+    "id": 3,
+    "title": "Data Scientist",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Contract",
+    "salary": "$61k"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Developer",
+    "location": "Edmonton",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$128k"
+  },
+  {
+    "id": 5,
+    "title": "Technical Support",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$109k"
+  },
+  {
+    "id": 6,
+    "title": "Data Scientist",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$120k"
+  },
+  {
+    "id": 7,
+    "title": "Systems Administrator",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$146k"
+  },
+  {
+    "id": 8,
+    "title": "Mobile App Developer",
+    "location": "Toronto",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$66k"
+  },
+  {
+    "id": 9,
+    "title": "Full Stack Developer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$131k"
+  },
+  {
+    "id": 10,
+    "title": "Data Scientist",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$147k"
+  },
+  {
+    "id": 11,
+    "title": "Machine Learning Engineer",
+    "location": "Calgary",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$148k"
+  },
+  {
+    "id": 12,
+    "title": "Cloud Engineer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$131k"
+  },
+  {
+    "id": 13,
+    "title": "Machine Learning Engineer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$80k"
+  },
+  {
+    "id": 14,
+    "title": "Software Engineer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 15,
+    "title": "Network Engineer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$105k"
+  },
+  {
+    "id": 16,
+    "title": "Software Engineer",
+    "location": "Vancouver",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$138k"
+  },
+  {
+    "id": 17,
+    "title": "Full Stack Developer",
+    "location": "Vancouver",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$136k"
+  },
+  {
+    "id": 18,
+    "title": "Software Engineer",
+    "location": "Quebec City",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$143k"
+  },
+  {
+    "id": 19,
+    "title": "Business Analyst",
+    "location": "Quebec City",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$99k"
+  },
+  {
+    "id": 20,
+    "title": "AI Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$105k"
+  },
+  {
+    "id": 21,
+    "title": "Technical Support",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$89k"
+  },
+  {
+    "id": 22,
+    "title": "Data Analyst",
+    "location": "Toronto",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$145k"
+  },
+  {
+    "id": 23,
+    "title": "QA Engineer",
+    "location": "Montreal",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$104k"
+  },
+  {
+    "id": 24,
+    "title": "DevOps Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$147k"
+  },
+  {
+    "id": 25,
+    "title": "Data Scientist",
+    "location": "Montreal",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$92k"
+  },
+  {
+    "id": 26,
+    "title": "AI Engineer",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$85k"
+  },
+  {
+    "id": 27,
+    "title": "Business Analyst",
+    "location": "Remote",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$106k"
+  },
+  {
+    "id": 28,
+    "title": "Product Manager",
+    "location": "Ottawa",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$149k"
+  },
+  {
+    "id": 29,
+    "title": "Project Manager",
+    "location": "Calgary",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$136k"
+  },
+  {
+    "id": 30,
+    "title": "Data Analyst",
+    "location": "Remote",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$91k"
+  },
+  {
+    "id": 31,
+    "title": "Cybersecurity Analyst",
+    "location": "Calgary",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$117k"
+  },
+  {
+    "id": 32,
+    "title": "Software Engineer",
+    "location": "Calgary",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$96k"
+  },
+  {
+    "id": 33,
+    "title": "Network Engineer",
+    "location": "Quebec City",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$60k"
+  },
+  {
+    "id": 34,
+    "title": "Project Manager",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$112k"
+  },
+  {
+    "id": 35,
+    "title": "Data Analyst",
+    "location": "Montreal",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$123k"
+  },
+  {
+    "id": 36,
+    "title": "Backend Developer",
+    "location": "Vancouver",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$76k"
+  },
+  {
+    "id": 37,
+    "title": "Data Analyst",
+    "location": "Halifax",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$145k"
+  },
+  {
+    "id": 38,
+    "title": "DevOps Engineer",
+    "location": "Vancouver",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$104k"
+  },
+  {
+    "id": 39,
+    "title": "QA Engineer",
+    "location": "Vancouver",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$98k"
+  },
+  {
+    "id": 40,
+    "title": "DevOps Engineer",
+    "location": "Quebec City",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$116k"
+  },
+  {
+    "id": 41,
+    "title": "Backend Developer",
+    "location": "Victoria",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$115k"
+  },
+  {
+    "id": 42,
+    "title": "UI/UX Designer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$119k"
+  },
+  {
+    "id": 43,
+    "title": "Data Scientist",
+    "location": "Winnipeg",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$68k"
+  },
+  {
+    "id": 44,
+    "title": "UI/UX Designer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$57k"
+  },
+  {
+    "id": 45,
+    "title": "Machine Learning Engineer",
+    "location": "Winnipeg",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$61k"
+  },
+  {
+    "id": 46,
+    "title": "UI/UX Designer",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$137k"
+  },
+  {
+    "id": 47,
+    "title": "Data Scientist",
+    "location": "Calgary",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$94k"
+  },
+  {
+    "id": 48,
+    "title": "QA Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$58k"
+  },
+  {
+    "id": 49,
+    "title": "Mobile App Developer",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$107k"
+  },
+  {
+    "id": 50,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$109k"
+  },
+  {
+    "id": 51,
+    "title": "Project Manager",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$65k"
+  },
+  {
+    "id": 52,
+    "title": "Technical Support",
+    "location": "Toronto",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$69k"
+  },
+  {
+    "id": 53,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$116k"
+  },
+  {
+    "id": 54,
+    "title": "Business Analyst",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$99k"
+  },
+  {
+    "id": 55,
+    "title": "Software Engineer",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$143k"
+  },
+  {
+    "id": 56,
+    "title": "Data Analyst",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$83k"
+  },
+  {
+    "id": 57,
+    "title": "Network Engineer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$110k"
+  },
+  {
+    "id": 58,
+    "title": "Product Manager",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$51k"
+  },
+  {
+    "id": 59,
+    "title": "Systems Administrator",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$143k"
+  },
+  {
+    "id": 60,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$70k"
+  },
+  {
+    "id": 61,
+    "title": "Data Analyst",
+    "location": "Winnipeg",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 62,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$105k"
+  },
+  {
+    "id": 63,
+    "title": "Full Stack Developer",
+    "location": "Victoria",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$98k"
+  },
+  {
+    "id": 64,
+    "title": "DevOps Engineer",
+    "location": "Halifax",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$123k"
+  },
+  {
+    "id": 65,
+    "title": "UI/UX Designer",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$79k"
+  },
+  {
+    "id": 66,
+    "title": "Network Engineer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$125k"
+  },
+  {
+    "id": 67,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$132k"
+  },
+  {
+    "id": 68,
+    "title": "UI/UX Designer",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$120k"
+  },
+  {
+    "id": 69,
+    "title": "DevOps Engineer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$135k"
+  },
+  {
+    "id": 70,
+    "title": "Product Manager",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$85k"
+  },
+  {
+    "id": 71,
+    "title": "Frontend Developer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$149k"
+  },
+  {
+    "id": 72,
+    "title": "AI Engineer",
+    "location": "Calgary",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$150k"
+  },
+  {
+    "id": 73,
+    "title": "Product Manager",
+    "location": "Montreal",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$99k"
+  },
+  {
+    "id": 74,
+    "title": "Network Engineer",
+    "location": "Calgary",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$58k"
+  },
+  {
+    "id": 75,
+    "title": "QA Engineer",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$79k"
+  },
+  {
+    "id": 76,
+    "title": "Frontend Developer",
+    "location": "Calgary",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$69k"
+  },
+  {
+    "id": 77,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$50k"
+  },
+  {
+    "id": 78,
+    "title": "AI Engineer",
+    "location": "Calgary",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$139k"
+  },
+  {
+    "id": 79,
+    "title": "Mobile App Developer",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$62k"
+  },
+  {
+    "id": 80,
+    "title": "Systems Administrator",
+    "location": "Victoria",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$120k"
+  },
+  {
+    "id": 81,
+    "title": "DevOps Engineer",
+    "location": "Ottawa",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$50k"
+  },
+  {
+    "id": 82,
+    "title": "Data Scientist",
+    "location": "Vancouver",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$102k"
+  },
+  {
+    "id": 83,
+    "title": "Business Analyst",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$114k"
+  },
+  {
+    "id": 84,
+    "title": "Mobile App Developer",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$138k"
+  },
+  {
+    "id": 85,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$117k"
+  },
+  {
+    "id": 86,
+    "title": "Cloud Engineer",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$85k"
+  },
+  {
+    "id": 87,
+    "title": "Network Engineer",
+    "location": "Victoria",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$149k"
+  },
+  {
+    "id": 88,
+    "title": "QA Engineer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$92k"
+  },
+  {
+    "id": 89,
+    "title": "Cybersecurity Analyst",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$96k"
+  },
+  {
+    "id": 90,
+    "title": "Machine Learning Engineer",
+    "location": "Victoria",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$149k"
+  },
+  {
+    "id": 91,
+    "title": "QA Engineer",
+    "location": "Vancouver",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 92,
+    "title": "Full Stack Developer",
+    "location": "Calgary",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$54k"
+  },
+  {
+    "id": 93,
+    "title": "Backend Developer",
+    "location": "Winnipeg",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$126k"
+  },
+  {
+    "id": 94,
+    "title": "Project Manager",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$136k"
+  },
+  {
+    "id": 95,
+    "title": "Software Engineer",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$99k"
+  },
+  {
+    "id": 96,
+    "title": "DevOps Engineer",
+    "location": "Ottawa",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$104k"
+  },
+  {
+    "id": 97,
+    "title": "Backend Developer",
+    "location": "Winnipeg",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$98k"
+  },
+  {
+    "id": 98,
+    "title": "Data Analyst",
+    "location": "Ottawa",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$59k"
+  },
+  {
+    "id": 99,
+    "title": "DevOps Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$147k"
+  },
+  {
+    "id": 100,
+    "title": "Technical Support",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$66k"
+  },
+  {
+    "id": 101,
+    "title": "Business Analyst",
+    "location": "Calgary",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 102,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$51k"
+  },
+  {
+    "id": 103,
+    "title": "Software Engineer",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$147k"
+  },
+  {
+    "id": 104,
+    "title": "AI Engineer",
+    "location": "Remote",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$50k"
+  },
+  {
+    "id": 105,
+    "title": "Full Stack Developer",
+    "location": "Edmonton",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 106,
+    "title": "QA Engineer",
+    "location": "Halifax",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$103k"
+  },
+  {
+    "id": 107,
+    "title": "Project Manager",
+    "location": "Quebec City",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$75k"
+  },
+  {
+    "id": 108,
+    "title": "Frontend Developer",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$105k"
+  },
+  {
+    "id": 109,
+    "title": "Backend Developer",
+    "location": "Toronto",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$104k"
+  },
+  {
+    "id": 110,
+    "title": "Network Engineer",
+    "location": "Toronto",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$71k"
+  },
+  {
+    "id": 111,
+    "title": "Cybersecurity Analyst",
+    "location": "Calgary",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$88k"
+  },
+  {
+    "id": 112,
+    "title": "Software Engineer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$95k"
+  },
+  {
+    "id": 113,
+    "title": "Frontend Developer",
+    "location": "Remote",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$113k"
+  },
+  {
+    "id": 114,
+    "title": "Product Manager",
+    "location": "Quebec City",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$129k"
+  },
+  {
+    "id": 115,
+    "title": "DevOps Engineer",
+    "location": "Ottawa",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$106k"
+  },
+  {
+    "id": 116,
+    "title": "Business Analyst",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$55k"
+  },
+  {
+    "id": 117,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$60k"
+  },
+  {
+    "id": 118,
+    "title": "Software Engineer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$105k"
+  },
+  {
+    "id": 119,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$87k"
+  },
+  {
+    "id": 120,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$68k"
+  },
+  {
+    "id": 121,
+    "title": "Product Manager",
+    "location": "Halifax",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$76k"
+  },
+  {
+    "id": 122,
+    "title": "AI Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$93k"
+  },
+  {
+    "id": 123,
+    "title": "Machine Learning Engineer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$148k"
+  },
+  {
+    "id": 124,
+    "title": "Data Analyst",
+    "location": "Edmonton",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$113k"
+  },
+  {
+    "id": 125,
+    "title": "Systems Administrator",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$50k"
+  },
+  {
+    "id": 126,
+    "title": "Full Stack Developer",
+    "location": "Halifax",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$96k"
+  },
+  {
+    "id": 127,
+    "title": "Cybersecurity Analyst",
+    "location": "Victoria",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$138k"
+  },
+  {
+    "id": 128,
+    "title": "Technical Support",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$103k"
+  },
+  {
+    "id": 129,
+    "title": "Systems Administrator",
+    "location": "Calgary",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$112k"
+  },
+  {
+    "id": 130,
+    "title": "Product Manager",
+    "location": "Montreal",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$112k"
+  },
+  {
+    "id": 131,
+    "title": "AI Engineer",
+    "location": "Edmonton",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$93k"
+  },
+  {
+    "id": 132,
+    "title": "Technical Support",
+    "location": "Montreal",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$86k"
+  },
+  {
+    "id": 133,
+    "title": "Frontend Developer",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$70k"
+  },
+  {
+    "id": 134,
+    "title": "Cloud Engineer",
+    "location": "Toronto",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$143k"
+  },
+  {
+    "id": 135,
+    "title": "DevOps Engineer",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$135k"
+  },
+  {
+    "id": 136,
+    "title": "Project Manager",
+    "location": "Victoria",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$140k"
+  },
+  {
+    "id": 137,
+    "title": "Cybersecurity Analyst",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$145k"
+  },
+  {
+    "id": 138,
+    "title": "QA Engineer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$124k"
+  },
+  {
+    "id": 139,
+    "title": "Product Manager",
+    "location": "Winnipeg",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$124k"
+  },
+  {
+    "id": 140,
+    "title": "Frontend Developer",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$112k"
+  },
+  {
+    "id": 141,
+    "title": "Product Manager",
+    "location": "Ottawa",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$89k"
+  },
+  {
+    "id": 142,
+    "title": "Full Stack Developer",
+    "location": "Vancouver",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 143,
+    "title": "Software Engineer",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$67k"
+  },
+  {
+    "id": 144,
+    "title": "Data Analyst",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$123k"
+  },
+  {
+    "id": 145,
+    "title": "Systems Administrator",
+    "location": "Remote",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$103k"
+  },
+  {
+    "id": 146,
+    "title": "Business Analyst",
+    "location": "Ottawa",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$110k"
+  },
+  {
+    "id": 147,
+    "title": "Full Stack Developer",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$99k"
+  },
+  {
+    "id": 148,
+    "title": "Backend Developer",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$55k"
+  },
+  {
+    "id": 149,
+    "title": "AI Engineer",
+    "location": "Victoria",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$107k"
+  },
+  {
+    "id": 150,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$136k"
+  },
+  {
+    "id": 151,
+    "title": "Backend Developer",
+    "location": "Montreal",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$136k"
+  },
+  {
+    "id": 152,
+    "title": "Full Stack Developer",
+    "location": "Quebec City",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$130k"
+  },
+  {
+    "id": 153,
+    "title": "Backend Developer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$120k"
+  },
+  {
+    "id": 154,
+    "title": "QA Engineer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$124k"
+  },
+  {
+    "id": 155,
+    "title": "Technical Support",
+    "location": "Vancouver",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$125k"
+  },
+  {
+    "id": 156,
+    "title": "Backend Developer",
+    "location": "Winnipeg",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$65k"
+  },
+  {
+    "id": 157,
+    "title": "QA Engineer",
+    "location": "Vancouver",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$136k"
+  },
+  {
+    "id": 158,
+    "title": "Cybersecurity Analyst",
+    "location": "Montreal",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$70k"
+  },
+  {
+    "id": 159,
+    "title": "AI Engineer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$82k"
+  },
+  {
+    "id": 160,
+    "title": "Frontend Developer",
+    "location": "Montreal",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$113k"
+  },
+  {
+    "id": 161,
+    "title": "Systems Administrator",
+    "location": "Winnipeg",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$79k"
+  },
+  {
+    "id": 162,
+    "title": "UI/UX Designer",
+    "location": "Calgary",
+    "company": "BrightSoft",
+    "type": "Internship",
+    "salary": "$125k"
+  },
+  {
+    "id": 163,
+    "title": "Data Scientist",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$121k"
+  },
+  {
+    "id": 164,
+    "title": "QA Engineer",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$135k"
+  },
+  {
+    "id": 165,
+    "title": "Data Scientist",
+    "location": "Montreal",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 166,
+    "title": "Cloud Engineer",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$63k"
+  },
+  {
+    "id": 167,
+    "title": "Software Engineer",
+    "location": "Edmonton",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$82k"
+  },
+  {
+    "id": 168,
+    "title": "Systems Administrator",
+    "location": "Toronto",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$88k"
+  },
+  {
+    "id": 169,
+    "title": "Network Engineer",
+    "location": "Calgary",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$80k"
+  },
+  {
+    "id": 170,
+    "title": "Data Scientist",
+    "location": "Vancouver",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$102k"
+  },
+  {
+    "id": 171,
+    "title": "Full Stack Developer",
+    "location": "Victoria",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$101k"
+  },
+  {
+    "id": 172,
+    "title": "Data Scientist",
+    "location": "Ottawa",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$52k"
+  },
+  {
+    "id": 173,
+    "title": "Cloud Engineer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$80k"
+  },
+  {
+    "id": 174,
+    "title": "Data Analyst",
+    "location": "Remote",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$138k"
+  },
+  {
+    "id": 175,
+    "title": "Business Analyst",
+    "location": "Victoria",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$96k"
+  },
+  {
+    "id": 176,
+    "title": "Data Scientist",
+    "location": "Toronto",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$142k"
+  },
+  {
+    "id": 177,
+    "title": "Data Analyst",
+    "location": "Vancouver",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$108k"
+  },
+  {
+    "id": 178,
+    "title": "Product Manager",
+    "location": "Halifax",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$100k"
+  },
+  {
+    "id": 179,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$54k"
+  },
+  {
+    "id": 180,
+    "title": "Frontend Developer",
+    "location": "Edmonton",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$115k"
+  },
+  {
+    "id": 181,
+    "title": "Frontend Developer",
+    "location": "Toronto",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$139k"
+  },
+  {
+    "id": 182,
+    "title": "Software Engineer",
+    "location": "Ottawa",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$82k"
+  },
+  {
+    "id": 183,
+    "title": "UI/UX Designer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 184,
+    "title": "QA Engineer",
+    "location": "Calgary",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$69k"
+  },
+  {
+    "id": 185,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$84k"
+  },
+  {
+    "id": 186,
+    "title": "Project Manager",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$96k"
+  },
+  {
+    "id": 187,
+    "title": "UI/UX Designer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$65k"
+  },
+  {
+    "id": 188,
+    "title": "AI Engineer",
+    "location": "Victoria",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$87k"
+  },
+  {
+    "id": 189,
+    "title": "Backend Developer",
+    "location": "Vancouver",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$116k"
+  },
+  {
+    "id": 190,
+    "title": "Machine Learning Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$57k"
+  },
+  {
+    "id": 191,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$115k"
+  },
+  {
+    "id": 192,
+    "title": "Systems Administrator",
+    "location": "Montreal",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$90k"
+  },
+  {
+    "id": 193,
+    "title": "Product Manager",
+    "location": "Montreal",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$64k"
+  },
+  {
+    "id": 194,
+    "title": "Systems Administrator",
+    "location": "Halifax",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$129k"
+  },
+  {
+    "id": 195,
+    "title": "Project Manager",
+    "location": "Winnipeg",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 196,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$83k"
+  },
+  {
+    "id": 197,
+    "title": "Frontend Developer",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$59k"
+  },
+  {
+    "id": 198,
+    "title": "Business Analyst",
+    "location": "Halifax",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$112k"
+  },
+  {
+    "id": 199,
+    "title": "Mobile App Developer",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$109k"
+  },
+  {
+    "id": 200,
+    "title": "Mobile App Developer",
+    "location": "Vancouver",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$75k"
+  },
+  {
+    "id": 201,
+    "title": "Data Analyst",
+    "location": "Halifax",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$124k"
+  },
+  {
+    "id": 202,
+    "title": "Full Stack Developer",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$56k"
+  },
+  {
+    "id": 203,
+    "title": "Software Engineer",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$135k"
+  },
+  {
+    "id": 204,
+    "title": "Data Analyst",
+    "location": "Winnipeg",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$73k"
+  },
+  {
+    "id": 205,
+    "title": "Full Stack Developer",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$98k"
+  },
+  {
+    "id": 206,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$64k"
+  },
+  {
+    "id": 207,
+    "title": "QA Engineer",
+    "location": "Remote",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 208,
+    "title": "Project Manager",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$142k"
+  },
+  {
+    "id": 209,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$65k"
+  },
+  {
+    "id": 210,
+    "title": "Frontend Developer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$83k"
+  },
+  {
+    "id": 211,
+    "title": "AI Engineer",
+    "location": "Toronto",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$148k"
+  },
+  {
+    "id": 212,
+    "title": "Network Engineer",
+    "location": "Ottawa",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$59k"
+  },
+  {
+    "id": 213,
+    "title": "DevOps Engineer",
+    "location": "Vancouver",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$141k"
+  },
+  {
+    "id": 214,
+    "title": "Systems Administrator",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$128k"
+  },
+  {
+    "id": 215,
+    "title": "Mobile App Developer",
+    "location": "Ottawa",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$128k"
+  },
+  {
+    "id": 216,
+    "title": "AI Engineer",
+    "location": "Vancouver",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$93k"
+  },
+  {
+    "id": 217,
+    "title": "Machine Learning Engineer",
+    "location": "Edmonton",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 218,
+    "title": "Machine Learning Engineer",
+    "location": "Winnipeg",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$71k"
+  },
+  {
+    "id": 219,
+    "title": "Data Scientist",
+    "location": "Montreal",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$71k"
+  },
+  {
+    "id": 220,
+    "title": "DevOps Engineer",
+    "location": "Edmonton",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$74k"
+  },
+  {
+    "id": 221,
+    "title": "QA Engineer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$77k"
+  },
+  {
+    "id": 222,
+    "title": "QA Engineer",
+    "location": "Ottawa",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$79k"
+  },
+  {
+    "id": 223,
+    "title": "UI/UX Designer",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$144k"
+  },
+  {
+    "id": 224,
+    "title": "Frontend Developer",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$150k"
+  },
+  {
+    "id": 225,
+    "title": "Product Manager",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$104k"
+  },
+  {
+    "id": 226,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$92k"
+  },
+  {
+    "id": 227,
+    "title": "UI/UX Designer",
+    "location": "Halifax",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$60k"
+  },
+  {
+    "id": 228,
+    "title": "Machine Learning Engineer",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$86k"
+  },
+  {
+    "id": 229,
+    "title": "Technical Support",
+    "location": "Victoria",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$65k"
+  },
+  {
+    "id": 230,
+    "title": "AI Engineer",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$65k"
+  },
+  {
+    "id": 231,
+    "title": "Cloud Engineer",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$112k"
+  },
+  {
+    "id": 232,
+    "title": "Mobile App Developer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$66k"
+  },
+  {
+    "id": 233,
+    "title": "Cybersecurity Analyst",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$147k"
+  },
+  {
+    "id": 234,
+    "title": "QA Engineer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$134k"
+  },
+  {
+    "id": 235,
+    "title": "Product Manager",
+    "location": "Calgary",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$134k"
+  },
+  {
+    "id": 236,
+    "title": "Systems Administrator",
+    "location": "Ottawa",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$102k"
+  },
+  {
+    "id": 237,
+    "title": "Machine Learning Engineer",
+    "location": "Vancouver",
+    "company": "QuantumLeap",
+    "type": "Contract",
+    "salary": "$71k"
+  },
+  {
+    "id": 238,
+    "title": "Software Engineer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$93k"
+  },
+  {
+    "id": 239,
+    "title": "Data Analyst",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$77k"
+  },
+  {
+    "id": 240,
+    "title": "Full Stack Developer",
+    "location": "Toronto",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$140k"
+  },
+  {
+    "id": 241,
+    "title": "Data Scientist",
+    "location": "Ottawa",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$91k"
+  },
+  {
+    "id": 242,
+    "title": "Technical Support",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$77k"
+  },
+  {
+    "id": 243,
+    "title": "Cloud Engineer",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$111k"
+  },
+  {
+    "id": 244,
+    "title": "Mobile App Developer",
+    "location": "Ottawa",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$91k"
+  },
+  {
+    "id": 245,
+    "title": "AI Engineer",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$140k"
+  },
+  {
+    "id": 246,
+    "title": "Technical Support",
+    "location": "Montreal",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$114k"
+  },
+  {
+    "id": 247,
+    "title": "AI Engineer",
+    "location": "Victoria",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$100k"
+  },
+  {
+    "id": 248,
+    "title": "UI/UX Designer",
+    "location": "Quebec City",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$111k"
+  },
+  {
+    "id": 249,
+    "title": "Software Engineer",
+    "location": "Victoria",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$94k"
+  },
+  {
+    "id": 250,
+    "title": "Technical Support",
+    "location": "Vancouver",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$71k"
+  },
+  {
+    "id": 251,
+    "title": "Frontend Developer",
+    "location": "Ottawa",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$96k"
+  },
+  {
+    "id": 252,
+    "title": "Cloud Engineer",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$148k"
+  },
+  {
+    "id": 253,
+    "title": "Data Analyst",
+    "location": "Calgary",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$75k"
+  },
+  {
+    "id": 254,
+    "title": "Product Manager",
+    "location": "Ottawa",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$71k"
+  },
+  {
+    "id": 255,
+    "title": "QA Engineer",
+    "location": "Toronto",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$67k"
+  },
+  {
+    "id": 256,
+    "title": "Data Analyst",
+    "location": "Toronto",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$87k"
+  },
+  {
+    "id": 257,
+    "title": "Cloud Engineer",
+    "location": "Toronto",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$104k"
+  },
+  {
+    "id": 258,
+    "title": "AI Engineer",
+    "location": "Montreal",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$112k"
+  },
+  {
+    "id": 259,
+    "title": "Cybersecurity Analyst",
+    "location": "Montreal",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$50k"
+  },
+  {
+    "id": 260,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$91k"
+  },
+  {
+    "id": 261,
+    "title": "Data Scientist",
+    "location": "Vancouver",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$140k"
+  },
+  {
+    "id": 262,
+    "title": "Technical Support",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$91k"
+  },
+  {
+    "id": 263,
+    "title": "Project Manager",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$110k"
+  },
+  {
+    "id": 264,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$150k"
+  },
+  {
+    "id": 265,
+    "title": "Business Analyst",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$123k"
+  },
+  {
+    "id": 266,
+    "title": "Network Engineer",
+    "location": "Calgary",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 267,
+    "title": "Data Scientist",
+    "location": "Quebec City",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$87k"
+  },
+  {
+    "id": 268,
+    "title": "Frontend Developer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$95k"
+  },
+  {
+    "id": 269,
+    "title": "Cloud Engineer",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$82k"
+  },
+  {
+    "id": 270,
+    "title": "Product Manager",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$129k"
+  },
+  {
+    "id": 271,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$135k"
+  },
+  {
+    "id": 272,
+    "title": "DevOps Engineer",
+    "location": "Ottawa",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 273,
+    "title": "Full Stack Developer",
+    "location": "Victoria",
+    "company": "BrightSoft",
+    "type": "Internship",
+    "salary": "$126k"
+  },
+  {
+    "id": 274,
+    "title": "DevOps Engineer",
+    "location": "Toronto",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$80k"
+  },
+  {
+    "id": 275,
+    "title": "Data Analyst",
+    "location": "Calgary",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 276,
+    "title": "Business Analyst",
+    "location": "Vancouver",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$63k"
+  },
+  {
+    "id": 277,
+    "title": "Cybersecurity Analyst",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$144k"
+  },
+  {
+    "id": 278,
+    "title": "Network Engineer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$73k"
+  },
+  {
+    "id": 279,
+    "title": "Full Stack Developer",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$71k"
+  },
+  {
+    "id": 280,
+    "title": "QA Engineer",
+    "location": "Victoria",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$144k"
+  },
+  {
+    "id": 281,
+    "title": "Backend Developer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$57k"
+  },
+  {
+    "id": 282,
+    "title": "UI/UX Designer",
+    "location": "Victoria",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$131k"
+  },
+  {
+    "id": 283,
+    "title": "Cloud Engineer",
+    "location": "Montreal",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$145k"
+  },
+  {
+    "id": 284,
+    "title": "Systems Administrator",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$109k"
+  },
+  {
+    "id": 285,
+    "title": "Backend Developer",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$148k"
+  },
+  {
+    "id": 286,
+    "title": "Mobile App Developer",
+    "location": "Toronto",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$109k"
+  },
+  {
+    "id": 287,
+    "title": "QA Engineer",
+    "location": "Ottawa",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$100k"
+  },
+  {
+    "id": 288,
+    "title": "Systems Administrator",
+    "location": "Quebec City",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$99k"
+  },
+  {
+    "id": 289,
+    "title": "Systems Administrator",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$113k"
+  },
+  {
+    "id": 290,
+    "title": "Backend Developer",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$102k"
+  },
+  {
+    "id": 291,
+    "title": "Cloud Engineer",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 292,
+    "title": "Data Scientist",
+    "location": "Winnipeg",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$140k"
+  },
+  {
+    "id": 293,
+    "title": "Full Stack Developer",
+    "location": "Quebec City",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$78k"
+  },
+  {
+    "id": 294,
+    "title": "Frontend Developer",
+    "location": "Calgary",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$76k"
+  },
+  {
+    "id": 295,
+    "title": "Systems Administrator",
+    "location": "Vancouver",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$111k"
+  },
+  {
+    "id": 296,
+    "title": "Machine Learning Engineer",
+    "location": "Ottawa",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$143k"
+  },
+  {
+    "id": 297,
+    "title": "Machine Learning Engineer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$129k"
+  },
+  {
+    "id": 298,
+    "title": "Project Manager",
+    "location": "Victoria",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$72k"
+  },
+  {
+    "id": 299,
+    "title": "Cybersecurity Analyst",
+    "location": "Toronto",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$60k"
+  },
+  {
+    "id": 300,
+    "title": "Project Manager",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$146k"
+  },
+  {
+    "id": 301,
+    "title": "Machine Learning Engineer",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$97k"
+  },
+  {
+    "id": 302,
+    "title": "UI/UX Designer",
+    "location": "Vancouver",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$113k"
+  },
+  {
+    "id": 303,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$109k"
+  },
+  {
+    "id": 304,
+    "title": "Cloud Engineer",
+    "location": "Calgary",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$66k"
+  },
+  {
+    "id": 305,
+    "title": "Network Engineer",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$78k"
+  },
+  {
+    "id": 306,
+    "title": "Backend Developer",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$149k"
+  },
+  {
+    "id": 307,
+    "title": "Cloud Engineer",
+    "location": "Vancouver",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$83k"
+  },
+  {
+    "id": 308,
+    "title": "Network Engineer",
+    "location": "Calgary",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$72k"
+  },
+  {
+    "id": 309,
+    "title": "Backend Developer",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$68k"
+  },
+  {
+    "id": 310,
+    "title": "Mobile App Developer",
+    "location": "Toronto",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$60k"
+  },
+  {
+    "id": 311,
+    "title": "AI Engineer",
+    "location": "Edmonton",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$91k"
+  },
+  {
+    "id": 312,
+    "title": "Data Scientist",
+    "location": "Calgary",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$113k"
+  },
+  {
+    "id": 313,
+    "title": "Network Engineer",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$54k"
+  },
+  {
+    "id": 314,
+    "title": "DevOps Engineer",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$106k"
+  },
+  {
+    "id": 315,
+    "title": "DevOps Engineer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$134k"
+  },
+  {
+    "id": 316,
+    "title": "Software Engineer",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$86k"
+  },
+  {
+    "id": 317,
+    "title": "Cloud Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$70k"
+  },
+  {
+    "id": 318,
+    "title": "Machine Learning Engineer",
+    "location": "Calgary",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$145k"
+  },
+  {
+    "id": 319,
+    "title": "Technical Support",
+    "location": "Montreal",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$55k"
+  },
+  {
+    "id": 320,
+    "title": "Data Analyst",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$70k"
+  },
+  {
+    "id": 321,
+    "title": "Frontend Developer",
+    "location": "Remote",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$95k"
+  },
+  {
+    "id": 322,
+    "title": "Backend Developer",
+    "location": "Edmonton",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$84k"
+  },
+  {
+    "id": 323,
+    "title": "Cloud Engineer",
+    "location": "Victoria",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$141k"
+  },
+  {
+    "id": 324,
+    "title": "Mobile App Developer",
+    "location": "Halifax",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$114k"
+  },
+  {
+    "id": 325,
+    "title": "Software Engineer",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 326,
+    "title": "Systems Administrator",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$52k"
+  },
+  {
+    "id": 327,
+    "title": "Cybersecurity Analyst",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$116k"
+  },
+  {
+    "id": 328,
+    "title": "Business Analyst",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 329,
+    "title": "Full Stack Developer",
+    "location": "Edmonton",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$115k"
+  },
+  {
+    "id": 330,
+    "title": "Technical Support",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$92k"
+  },
+  {
+    "id": 331,
+    "title": "Machine Learning Engineer",
+    "location": "Victoria",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$118k"
+  },
+  {
+    "id": 332,
+    "title": "Technical Support",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$58k"
+  },
+  {
+    "id": 333,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$122k"
+  },
+  {
+    "id": 334,
+    "title": "Systems Administrator",
+    "location": "Halifax",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$126k"
+  },
+  {
+    "id": 335,
+    "title": "Full Stack Developer",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$78k"
+  },
+  {
+    "id": 336,
+    "title": "Machine Learning Engineer",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$60k"
+  },
+  {
+    "id": 337,
+    "title": "Machine Learning Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$135k"
+  },
+  {
+    "id": 338,
+    "title": "Mobile App Developer",
+    "location": "Ottawa",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$81k"
+  },
+  {
+    "id": 339,
+    "title": "DevOps Engineer",
+    "location": "Calgary",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$139k"
+  },
+  {
+    "id": 340,
+    "title": "Cybersecurity Analyst",
+    "location": "Toronto",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$120k"
+  },
+  {
+    "id": 341,
+    "title": "Frontend Developer",
+    "location": "Edmonton",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$132k"
+  },
+  {
+    "id": 342,
+    "title": "Business Analyst",
+    "location": "Vancouver",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$85k"
+  },
+  {
+    "id": 343,
+    "title": "UI/UX Designer",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$146k"
+  },
+  {
+    "id": 344,
+    "title": "Network Engineer",
+    "location": "Quebec City",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$93k"
+  },
+  {
+    "id": 345,
+    "title": "Data Analyst",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$89k"
+  },
+  {
+    "id": 346,
+    "title": "Technical Support",
+    "location": "Winnipeg",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$93k"
+  },
+  {
+    "id": 347,
+    "title": "Data Analyst",
+    "location": "Winnipeg",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$50k"
+  },
+  {
+    "id": 348,
+    "title": "Cloud Engineer",
+    "location": "Halifax",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$121k"
+  },
+  {
+    "id": 349,
+    "title": "UI/UX Designer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$103k"
+  },
+  {
+    "id": 350,
+    "title": "Business Analyst",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$78k"
+  },
+  {
+    "id": 351,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$124k"
+  },
+  {
+    "id": 352,
+    "title": "Business Analyst",
+    "location": "Ottawa",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$150k"
+  },
+  {
+    "id": 353,
+    "title": "Technical Support",
+    "location": "Calgary",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$91k"
+  },
+  {
+    "id": 354,
+    "title": "Frontend Developer",
+    "location": "Ottawa",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$139k"
+  },
+  {
+    "id": 355,
+    "title": "DevOps Engineer",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$103k"
+  },
+  {
+    "id": 356,
+    "title": "Machine Learning Engineer",
+    "location": "Victoria",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$95k"
+  },
+  {
+    "id": 357,
+    "title": "Business Analyst",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$85k"
+  },
+  {
+    "id": 358,
+    "title": "Product Manager",
+    "location": "Montreal",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$61k"
+  },
+  {
+    "id": 359,
+    "title": "Technical Support",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$60k"
+  },
+  {
+    "id": 360,
+    "title": "Systems Administrator",
+    "location": "Montreal",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$124k"
+  },
+  {
+    "id": 361,
+    "title": "Machine Learning Engineer",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$149k"
+  },
+  {
+    "id": 362,
+    "title": "Technical Support",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$74k"
+  },
+  {
+    "id": 363,
+    "title": "Machine Learning Engineer",
+    "location": "Vancouver",
+    "company": "BrightSoft",
+    "type": "Internship",
+    "salary": "$124k"
+  },
+  {
+    "id": 364,
+    "title": "Mobile App Developer",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$127k"
+  },
+  {
+    "id": 365,
+    "title": "Technical Support",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$88k"
+  },
+  {
+    "id": 366,
+    "title": "AI Engineer",
+    "location": "Winnipeg",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$60k"
+  },
+  {
+    "id": 367,
+    "title": "Machine Learning Engineer",
+    "location": "Ottawa",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$86k"
+  },
+  {
+    "id": 368,
+    "title": "Cloud Engineer",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$55k"
+  },
+  {
+    "id": 369,
+    "title": "Data Scientist",
+    "location": "Calgary",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$68k"
+  },
+  {
+    "id": 370,
+    "title": "Product Manager",
+    "location": "Edmonton",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$82k"
+  },
+  {
+    "id": 371,
+    "title": "Data Analyst",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Part-time",
+    "salary": "$65k"
+  },
+  {
+    "id": 372,
+    "title": "Business Analyst",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$79k"
+  },
+  {
+    "id": 373,
+    "title": "Full Stack Developer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$136k"
+  },
+  {
+    "id": 374,
+    "title": "Project Manager",
+    "location": "Edmonton",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$54k"
+  },
+  {
+    "id": 375,
+    "title": "Product Manager",
+    "location": "Toronto",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$64k"
+  },
+  {
+    "id": 376,
+    "title": "Technical Support",
+    "location": "Calgary",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 377,
+    "title": "Software Engineer",
+    "location": "Vancouver",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$142k"
+  },
+  {
+    "id": 378,
+    "title": "Backend Developer",
+    "location": "Ottawa",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$80k"
+  },
+  {
+    "id": 379,
+    "title": "Project Manager",
+    "location": "Remote",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$103k"
+  },
+  {
+    "id": 380,
+    "title": "Frontend Developer",
+    "location": "Halifax",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$69k"
+  },
+  {
+    "id": 381,
+    "title": "Cybersecurity Analyst",
+    "location": "Ottawa",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$119k"
+  },
+  {
+    "id": 382,
+    "title": "DevOps Engineer",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$121k"
+  },
+  {
+    "id": 383,
+    "title": "Backend Developer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$88k"
+  },
+  {
+    "id": 384,
+    "title": "UI/UX Designer",
+    "location": "Vancouver",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$60k"
+  },
+  {
+    "id": 385,
+    "title": "Network Engineer",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$70k"
+  },
+  {
+    "id": 386,
+    "title": "Technical Support",
+    "location": "Calgary",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 387,
+    "title": "Full Stack Developer",
+    "location": "Quebec City",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$80k"
+  },
+  {
+    "id": 388,
+    "title": "Systems Administrator",
+    "location": "Edmonton",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$57k"
+  },
+  {
+    "id": 389,
+    "title": "Project Manager",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$126k"
+  },
+  {
+    "id": 390,
+    "title": "Full Stack Developer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$150k"
+  },
+  {
+    "id": 391,
+    "title": "QA Engineer",
+    "location": "Toronto",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$141k"
+  },
+  {
+    "id": 392,
+    "title": "Technical Support",
+    "location": "Edmonton",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$144k"
+  },
+  {
+    "id": 393,
+    "title": "UI/UX Designer",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$99k"
+  },
+  {
+    "id": 394,
+    "title": "UI/UX Designer",
+    "location": "Edmonton",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$62k"
+  },
+  {
+    "id": 395,
+    "title": "Backend Developer",
+    "location": "Victoria",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$72k"
+  },
+  {
+    "id": 396,
+    "title": "Full Stack Developer",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$65k"
+  },
+  {
+    "id": 397,
+    "title": "Network Engineer",
+    "location": "Halifax",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$122k"
+  },
+  {
+    "id": 398,
+    "title": "Cybersecurity Analyst",
+    "location": "Montreal",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$56k"
+  },
+  {
+    "id": 399,
+    "title": "Business Analyst",
+    "location": "Montreal",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$82k"
+  },
+  {
+    "id": 400,
+    "title": "QA Engineer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$68k"
+  },
+  {
+    "id": 401,
+    "title": "Business Analyst",
+    "location": "Winnipeg",
+    "company": "BrightSoft",
+    "type": "Internship",
+    "salary": "$57k"
+  },
+  {
+    "id": 402,
+    "title": "Machine Learning Engineer",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$133k"
+  },
+  {
+    "id": 403,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$94k"
+  },
+  {
+    "id": 404,
+    "title": "Machine Learning Engineer",
+    "location": "Quebec City",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$76k"
+  },
+  {
+    "id": 405,
+    "title": "Systems Administrator",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$135k"
+  },
+  {
+    "id": 406,
+    "title": "Backend Developer",
+    "location": "Calgary",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$120k"
+  },
+  {
+    "id": 407,
+    "title": "Software Engineer",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$113k"
+  },
+  {
+    "id": 408,
+    "title": "Full Stack Developer",
+    "location": "Victoria",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$117k"
+  },
+  {
+    "id": 409,
+    "title": "Data Analyst",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$121k"
+  },
+  {
+    "id": 410,
+    "title": "DevOps Engineer",
+    "location": "Halifax",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$63k"
+  },
+  {
+    "id": 411,
+    "title": "QA Engineer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$130k"
+  },
+  {
+    "id": 412,
+    "title": "Full Stack Developer",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$97k"
+  },
+  {
+    "id": 413,
+    "title": "DevOps Engineer",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$139k"
+  },
+  {
+    "id": 414,
+    "title": "Network Engineer",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Part-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 415,
+    "title": "DevOps Engineer",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$60k"
+  },
+  {
+    "id": 416,
+    "title": "Machine Learning Engineer",
+    "location": "Calgary",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$70k"
+  },
+  {
+    "id": 417,
+    "title": "Full Stack Developer",
+    "location": "Edmonton",
+    "company": "QuantumLeap",
+    "type": "Contract",
+    "salary": "$128k"
+  },
+  {
+    "id": 418,
+    "title": "DevOps Engineer",
+    "location": "Vancouver",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$81k"
+  },
+  {
+    "id": 419,
+    "title": "Data Scientist",
+    "location": "Vancouver",
+    "company": "NextGen Systems",
+    "type": "Full-time",
+    "salary": "$89k"
+  },
+  {
+    "id": 420,
+    "title": "Technical Support",
+    "location": "Edmonton",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$90k"
+  },
+  {
+    "id": 421,
+    "title": "Product Manager",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$101k"
+  },
+  {
+    "id": 422,
+    "title": "Frontend Developer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$113k"
+  },
+  {
+    "id": 423,
+    "title": "Data Analyst",
+    "location": "Halifax",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$133k"
+  },
+  {
+    "id": 424,
+    "title": "Technical Support",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Full-time",
+    "salary": "$90k"
+  },
+  {
+    "id": 425,
+    "title": "Data Analyst",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$102k"
+  },
+  {
+    "id": 426,
+    "title": "Systems Administrator",
+    "location": "Calgary",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$71k"
+  },
+  {
+    "id": 427,
+    "title": "Project Manager",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Contract",
+    "salary": "$146k"
+  },
+  {
+    "id": 428,
+    "title": "Frontend Developer",
+    "location": "Victoria",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$89k"
+  },
+  {
+    "id": 429,
+    "title": "AI Engineer",
+    "location": "Victoria",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$83k"
+  },
+  {
+    "id": 430,
+    "title": "Cloud Engineer",
+    "location": "Victoria",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 431,
+    "title": "Business Analyst",
+    "location": "Victoria",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 432,
+    "title": "Data Scientist",
+    "location": "Halifax",
+    "company": "Innovatech",
+    "type": "Contract",
+    "salary": "$102k"
+  },
+  {
+    "id": 433,
+    "title": "Network Engineer",
+    "location": "Ottawa",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$128k"
+  },
+  {
+    "id": 434,
+    "title": "Frontend Developer",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$118k"
+  },
+  {
+    "id": 435,
+    "title": "Product Manager",
+    "location": "Ottawa",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$118k"
+  },
+  {
+    "id": 436,
+    "title": "Data Scientist",
+    "location": "Winnipeg",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$119k"
+  },
+  {
+    "id": 437,
+    "title": "Cloud Engineer",
+    "location": "Remote",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$82k"
+  },
+  {
+    "id": 438,
+    "title": "Machine Learning Engineer",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$60k"
+  },
+  {
+    "id": 439,
+    "title": "UI/UX Designer",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$103k"
+  },
+  {
+    "id": 440,
+    "title": "Product Manager",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$142k"
+  },
+  {
+    "id": 441,
+    "title": "Software Engineer",
+    "location": "Vancouver",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$83k"
+  },
+  {
+    "id": 442,
+    "title": "Network Engineer",
+    "location": "Calgary",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$107k"
+  },
+  {
+    "id": 443,
+    "title": "Product Manager",
+    "location": "Ottawa",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$88k"
+  },
+  {
+    "id": 444,
+    "title": "Product Manager",
+    "location": "Halifax",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$86k"
+  },
+  {
+    "id": 445,
+    "title": "Product Manager",
+    "location": "Edmonton",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$63k"
+  },
+  {
+    "id": 446,
+    "title": "Product Manager",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$126k"
+  },
+  {
+    "id": 447,
+    "title": "UI/UX Designer",
+    "location": "Ottawa",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$67k"
+  },
+  {
+    "id": 448,
+    "title": "Business Analyst",
+    "location": "Victoria",
+    "company": "BrightSoft",
+    "type": "Contract",
+    "salary": "$76k"
+  },
+  {
+    "id": 449,
+    "title": "Machine Learning Engineer",
+    "location": "Montreal",
+    "company": "DataMinds",
+    "type": "Part-time",
+    "salary": "$101k"
+  },
+  {
+    "id": 450,
+    "title": "Machine Learning Engineer",
+    "location": "Winnipeg",
+    "company": "CloudCore",
+    "type": "Part-time",
+    "salary": "$141k"
+  },
+  {
+    "id": 451,
+    "title": "UI/UX Designer",
+    "location": "Winnipeg",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$143k"
+  },
+  {
+    "id": 452,
+    "title": "Systems Administrator",
+    "location": "Edmonton",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$90k"
+  },
+  {
+    "id": 453,
+    "title": "Project Manager",
+    "location": "Montreal",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$80k"
+  },
+  {
+    "id": 454,
+    "title": "QA Engineer",
+    "location": "Remote",
+    "company": "CodeCrafters",
+    "type": "Part-time",
+    "salary": "$106k"
+  },
+  {
+    "id": 455,
+    "title": "Systems Administrator",
+    "location": "Remote",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$60k"
+  },
+  {
+    "id": 456,
+    "title": "Network Engineer",
+    "location": "Edmonton",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$105k"
+  },
+  {
+    "id": 457,
+    "title": "Cybersecurity Analyst",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Full-time",
+    "salary": "$66k"
+  },
+  {
+    "id": 458,
+    "title": "Data Analyst",
+    "location": "Quebec City",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$75k"
+  },
+  {
+    "id": 459,
+    "title": "Technical Support",
+    "location": "Edmonton",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$145k"
+  },
+  {
+    "id": 460,
+    "title": "Full Stack Developer",
+    "location": "Montreal",
+    "company": "QuantumLeap",
+    "type": "Internship",
+    "salary": "$57k"
+  },
+  {
+    "id": 461,
+    "title": "Mobile App Developer",
+    "location": "Toronto",
+    "company": "DataMinds",
+    "type": "Full-time",
+    "salary": "$136k"
+  },
+  {
+    "id": 462,
+    "title": "QA Engineer",
+    "location": "Toronto",
+    "company": "Innovatech",
+    "type": "Part-time",
+    "salary": "$135k"
+  },
+  {
+    "id": 463,
+    "title": "AI Engineer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$99k"
+  },
+  {
+    "id": 464,
+    "title": "Machine Learning Engineer",
+    "location": "Quebec City",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$81k"
+  },
+  {
+    "id": 465,
+    "title": "Frontend Developer",
+    "location": "Halifax",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$81k"
+  },
+  {
+    "id": 466,
+    "title": "Project Manager",
+    "location": "Halifax",
+    "company": "TechNova",
+    "type": "Part-time",
+    "salary": "$63k"
+  },
+  {
+    "id": 467,
+    "title": "DevOps Engineer",
+    "location": "Quebec City",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$113k"
+  },
+  {
+    "id": 468,
+    "title": "QA Engineer",
+    "location": "Toronto",
+    "company": "TechNova",
+    "type": "Internship",
+    "salary": "$93k"
+  },
+  {
+    "id": 469,
+    "title": "Cloud Engineer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Contract",
+    "salary": "$70k"
+  },
+  {
+    "id": 470,
+    "title": "UI/UX Designer",
+    "location": "Ottawa",
+    "company": "TechNova",
+    "type": "Contract",
+    "salary": "$92k"
+  },
+  {
+    "id": 471,
+    "title": "Full Stack Developer",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$50k"
+  },
+  {
+    "id": 472,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "SkyNet Solutions",
+    "type": "Part-time",
+    "salary": "$131k"
+  },
+  {
+    "id": 473,
+    "title": "Mobile App Developer",
+    "location": "Remote",
+    "company": "Innovatech",
+    "type": "Internship",
+    "salary": "$97k"
+  },
+  {
+    "id": 474,
+    "title": "Cloud Engineer",
+    "location": "Halifax",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$139k"
+  },
+  {
+    "id": 475,
+    "title": "Business Analyst",
+    "location": "Victoria",
+    "company": "SkyNet Solutions",
+    "type": "Internship",
+    "salary": "$65k"
+  },
+  {
+    "id": 476,
+    "title": "Technical Support",
+    "location": "Toronto",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$52k"
+  },
+  {
+    "id": 477,
+    "title": "Mobile App Developer",
+    "location": "Halifax",
+    "company": "PixelLogic",
+    "type": "Full-time",
+    "salary": "$54k"
+  },
+  {
+    "id": 478,
+    "title": "Project Manager",
+    "location": "Quebec City",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$79k"
+  },
+  {
+    "id": 479,
+    "title": "Business Analyst",
+    "location": "Quebec City",
+    "company": "CodeCrafters",
+    "type": "Full-time",
+    "salary": "$108k"
+  },
+  {
+    "id": 480,
+    "title": "Systems Administrator",
+    "location": "Edmonton",
+    "company": "NextGen Systems",
+    "type": "Contract",
+    "salary": "$56k"
+  },
+  {
+    "id": 481,
+    "title": "Project Manager",
+    "location": "Calgary",
+    "company": "QuantumLeap",
+    "type": "Part-time",
+    "salary": "$71k"
+  },
+  {
+    "id": 482,
+    "title": "Product Manager",
+    "location": "Toronto",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$58k"
+  },
+  {
+    "id": 483,
+    "title": "Data Analyst",
+    "location": "Vancouver",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$92k"
+  },
+  {
+    "id": 484,
+    "title": "Cloud Engineer",
+    "location": "Toronto",
+    "company": "QuantumLeap",
+    "type": "Full-time",
+    "salary": "$80k"
+  },
+  {
+    "id": 485,
+    "title": "Machine Learning Engineer",
+    "location": "Victoria",
+    "company": "BrightSoft",
+    "type": "Full-time",
+    "salary": "$94k"
+  },
+  {
+    "id": 486,
+    "title": "Product Manager",
+    "location": "Victoria",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$131k"
+  },
+  {
+    "id": 487,
+    "title": "Project Manager",
+    "location": "Remote",
+    "company": "CloudCore",
+    "type": "Internship",
+    "salary": "$77k"
+  },
+  {
+    "id": 488,
+    "title": "AI Engineer",
+    "location": "Calgary",
+    "company": "QuantumLeap",
+    "type": "Contract",
+    "salary": "$72k"
+  },
+  {
+    "id": 489,
+    "title": "DevOps Engineer",
+    "location": "Winnipeg",
+    "company": "DataMinds",
+    "type": "Internship",
+    "salary": "$67k"
+  },
+  {
+    "id": 490,
+    "title": "Cybersecurity Analyst",
+    "location": "Toronto",
+    "company": "PixelLogic",
+    "type": "Internship",
+    "salary": "$63k"
+  },
+  {
+    "id": 491,
+    "title": "Cybersecurity Analyst",
+    "location": "Quebec City",
+    "company": "SkyNet Solutions",
+    "type": "Full-time",
+    "salary": "$61k"
+  },
+  {
+    "id": 492,
+    "title": "Cybersecurity Analyst",
+    "location": "Edmonton",
+    "company": "SkyNet Solutions",
+    "type": "Contract",
+    "salary": "$146k"
+  },
+  {
+    "id": 493,
+    "title": "Technical Support",
+    "location": "Calgary",
+    "company": "CodeCrafters",
+    "type": "Internship",
+    "salary": "$133k"
+  },
+  {
+    "id": 494,
+    "title": "Network Engineer",
+    "location": "Remote",
+    "company": "Innovatech",
+    "type": "Full-time",
+    "salary": "$119k"
+  },
+  {
+    "id": 495,
+    "title": "Full Stack Developer",
+    "location": "Montreal",
+    "company": "CloudCore",
+    "type": "Contract",
+    "salary": "$138k"
+  },
+  {
+    "id": 496,
+    "title": "Cybersecurity Analyst",
+    "location": "Remote",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$141k"
+  },
+  {
+    "id": 497,
+    "title": "Cybersecurity Analyst",
+    "location": "Winnipeg",
+    "company": "DataMinds",
+    "type": "Contract",
+    "salary": "$147k"
+  },
+  {
+    "id": 498,
+    "title": "UI/UX Designer",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Part-time",
+    "salary": "$139k"
+  },
+  {
+    "id": 499,
+    "title": "Mobile App Developer",
+    "location": "Montreal",
+    "company": "CodeCrafters",
+    "type": "Contract",
+    "salary": "$52k"
+  },
+  {
+    "id": 500,
+    "title": "Data Analyst",
+    "location": "Montreal",
+    "company": "NextGen Systems",
+    "type": "Internship",
+    "salary": "$86k"
+  }
+]
