@@ -8,13 +8,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav>
         <div class="title">
-          <h1>findjobs.ca</h1>
+          <a href="index.html" class="header-link">
+            <h1>findjobs.ca</h1>
+          </a>
         </div>
         <div class="navlinks">
           <a href="login/login.html" class="signin">Signin</a>
@@ -28,15 +31,29 @@
     <aside></aside>
 
     <main id="main-content" class="main-content">
-      <div class="top-container">
-        <div class="search-container">
-          <input type="text" class="search-bar" placeholder="search jobs..." />
-          <button id="search-button" class="search-button">
-            <i class="fa fa-search"></i>
-          </button>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-bar"
+          id="search"
+          placeholder="search jobs..."
+        />
+        <button id="search-button" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+
+        <div class="search-item" id="search-item">
+          <li id="search-list"></li>
         </div>
+      </div>
+
+      <div class="display-result" id="display-result">
+        <p class="no-job-found" id="no-job-found"></p>
+      </div>
+
+      <div class="top-container">
         <div class="branding-container">
-          <p class="branding">
+          <p class="branding" id="branding">
             "Connecting talent with opportunity—faster and smarter. At
             <span class="branding-span">FindJobs.ca</span>
             , we empower job seekers with
@@ -49,7 +66,7 @@
         </div>
       </div>
 
-      <div class="middle-container">
+      <div class="middle-container" id="middle-container">
         <h2 class="company">Companies <i class="fa fa-arrow-right"></i></h2>
         <div class="card-middle">
           <div class="company-card">
@@ -85,7 +102,7 @@
         </div>
       </div>
 
-      <div class="bottom-container">
+      <div class="bottom-container" id="bottom-container">
         <h2 class="services">Services <i class="fa fa-arrow-right"></i></h2>
         <div class="service-cards">
           <div class="card">
@@ -120,6 +137,18 @@
         </div>
       </div>
     </main>
-    <script src="script.js"></script>
+
+    <!-- job card template -->
+
+    <template id="job-template">
+      <div class="job-card">
+        <h3 class="job-title" job-title></h3>
+        <p class="job-company"></p>
+        <p class="job-location"></p>
+        <p class="job-salary"></p>
+        <p class="job-type"></p>
+        <p class="job-description"></p>
+      </div>
+    </template>
   </body>
 </html>
