@@ -10,65 +10,52 @@
 body {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-areas:
-    "navbar mainbar"
-    "sidebar mainbar"
-    "sidebar mainbar";
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: "navbar mainbar";
   gap: 10px;
   padding: 10px;
 }
 
 header {
   grid-area: navbar;
-}
-
-aside {
-  grid-area: sidebar;
-  width: 100%;
-  height: 100%;
-  background-color: #f3f5f2;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
+  height: 85vh;
+  background-color: #f0f3f4;
 }
 
 main {
   grid-area: mainbar;
 }
 
-/* header styling */
-header {
-  height: 100%;
-  background-color: #f0f3f4;
-}
-
 nav {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100%;
   gap: 30px;
+  padding: 12px;
 }
 
 .title {
   font-size: 2vw;
   color: #5d5d5d;
   letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .navlinks a {
   text-decoration: none;
-  color: black;
   border-radius: 5px;
-  padding: 15px 40px;
-  /* background-color: rgb(34 89 139); */
-  background-color: white;
-  color: #5d5d5d;
+  padding: 15px 35px;
+  background-color: #5d5d5d;
+  color: white;
   letter-spacing: 1px;
   font-weight: 700;
 }
@@ -78,12 +65,12 @@ nav {
 }
 
 .signin:hover {
-  background-color: #5d5d5d;
+  background-color: #515050;
   color: white;
 }
 
 .register:hover {
-  background-color: #5d5d5d;
+  background-color: #515050;
   color: white;
 }
 
