@@ -35,10 +35,3 @@ btn.addEventListener("click", (e) => {
       const errorMessage = error.message;
     });
 });
-
-const backBtn = document.getElementById("back");
-
-backBtn.addEventListener("click", function (e) {
-  e.preventDefault();
-  window.location.href = "../index.html";
-});

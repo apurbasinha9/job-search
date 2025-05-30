@@ -51,7 +51,7 @@ h1 {
   left: 50%;
   transform: translateX(-50%);
   color: #646464;
-  font-size: 3vw;
+  font-size: 2rem;
   pointer-events: none;
 }
 

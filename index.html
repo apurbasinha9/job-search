@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -31,7 +33,7 @@
     <!-- <aside></aside> -->
 
     <main id="main-content" class="main-content">
-      <div class="search-container">
+      <div id="search-container" class="search-container">
         <input
           type="text"
           class="search-bar"
@@ -42,13 +44,125 @@
           <i class="fa fa-search"></i>
         </button>
 
-        <div class="search-item" id="search-item">
+        <div class="search-item rounded-lg shadow-lg" id="search-item">
           <li id="search-list"></li>
         </div>
       </div>
 
       <div class="display-result" id="display-result">
+        <div id="searched-jobs" class="searched-jobs"></div>
         <p class="no-job-found" id="no-job-found"></p>
+      </div>
+
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div
+            id="job-application"
+            class="bg-white rounded-md w-full md:w-96 md:max-w-full mx-auto"
+          >
+            <div class="p-6 border border-gray-300 sm:rounded-md">
+              <form
+                method="POST"
+                action="https://herotofu.com/start"
+                enctype="multipart/form-data"
+              >
+                <div class="w-full flex flex-row-reverse">
+                  <span id="modal-close">&times;</span>
+                </div>
+
+                <label class="block mb-6">
+                  <span class="text-gray-700">Your name</span>
+                  <input
+                    required
+                    name="name"
+                    type="text"
+                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    placeholder="Joe Bloggs"
+                  />
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Email address</span>
+                  <input
+                    required
+                    name="email"
+                    type="email"
+                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    placeholder="joe.bloggs@example.com"
+                  />
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Years of experience</span>
+                  <select
+                    required
+                    name="experience"
+                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  >
+                    <option>Less than a year</option>
+                    <option>1 - 2 years</option>
+                    <option>2 - 4 years</option>
+                    <option>4 - 7 years</option>
+                    <option>7 - 10 years</option>
+                    <option>10+ years</option>
+                  </select>
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Tell us more about yourself</span>
+                  <textarea
+                    name="message"
+                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    rows="3"
+                    placeholder="What motivates you?"
+                  ></textarea>
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Your CV</span>
+                  <input
+                    required
+                    name="cv"
+                    type="file"
+                    class="block w-full mt-1 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  />
+                </label>
+                <div class="mb-6">
+                  <div class="mt-2">
+                    <div>
+                      <label class="inline-flex items-center">
+                        <input
+                          name="remote"
+                          value="yes"
+                          type="radio"
+                          class="text-indigo-600 border-gray-300 rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
+                          checked
+                        />
+                        <span class="ml-2">You'd like to work remotely</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="inline-flex items-center">
+                        <input
+                          name="re"
+                          value="no"
+                          type="radio"
+                          class="text-indigo-600 border-gray-300 rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
+                        />
+                        <span class="ml-2">You'd prefer to work onsite</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-6">
+                  <button
+                    type="submit"
+                    class="h-10 w-full px-5 text-indigo-100 bg-indigo-700 rounded-lg transition-colors duration-150 focus:shadow-outline hover:bg-indigo-800"
+                  >
+                    Apply
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="top-container">
@@ -147,6 +261,7 @@
         <p class="job-location"></p>
         <p class="job-salary"></p>
         <p class="job-type"></p>
+        <button class="job-apply">Apply</button>
         <p class="job-description"></p>
       </div>
     </template>
