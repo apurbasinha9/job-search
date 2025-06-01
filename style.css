@@ -63,8 +63,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  gap: 5px;
+  padding: 15px 0;
+  gap: 10px;
 }
 
 .display-result {
@@ -154,7 +154,7 @@ nav {
 
 .job-type {
   grid-column: 2 / 3;
-  color: #007bff;
+  color: darkorange;
   font-weight: 600;
 }
 
@@ -169,13 +169,18 @@ nav {
 }
 
 .job-apply {
-  padding: 10px 15px;
+  padding: 5px 10px;
   background-color: #5d5d5d;
   color: white;
   border: none;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 5px;
+}
+
+.job-apply:hover {
+  background-color: #535252;
 }
 
 .navlinks a {
