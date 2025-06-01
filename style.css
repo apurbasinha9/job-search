@@ -15,12 +15,12 @@ body {
   grid-template-areas:
     "navbar navbar"
     "mainbar mainbar";
-  gap: 10px;
 }
 
 header {
   grid-area: navbar;
-  background-color: #f0f3f4;
+  /* background-color: #f0f3f4; */
+  background-color: #373737;
   position: sticky;
   top: 0;
   display: flex;
@@ -50,10 +50,13 @@ nav {
 
 .title {
   font-size: 2.8rem;
-  color: #5d5d5d;
   letter-spacing: 1px;
   cursor: pointer;
   font-weight: 600;
+}
+
+.title h1 {
+  color: #bdbdbd;
 }
 
 .navlinks {
@@ -117,9 +120,10 @@ nav {
   grid-template-rows: auto auto auto;
   gap: 10px 20px;
   padding: 15px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 8px;
-  background-color: #fafafa;
+  /* background-color: #f1f1f1; */
+  background-color: #373737;
   margin-bottom: 10px;
   width: 100%;
 }
@@ -129,21 +133,22 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0 0 10px 0;
+  color: #bdbdbd;
 }
 .job-company {
   grid-column: 1 / 2;
   font-weight: 600;
-  color: #555;
+  color: cadetblue;
 }
 
 .job-location {
   grid-column: 2 / 3;
   font-style: italic;
-  color: #777;
+  color: floralwhite;
 }
 .job-salary {
   grid-column: 1 / 2;
-  color: green;
+  color: chartreuse;
   font-weight: 600;
 }
 
@@ -156,14 +161,14 @@ nav {
 .job-form {
   display: none;
 }
+
 .job-description {
   grid-column: 1 / -1;
   margin-top: 10px;
-  color: #333;
+  color: #bdbdbd;
 }
 
 .job-apply {
-  grid-column: 3 / 3;
   padding: 10px 15px;
   background-color: #5d5d5d;
   color: white;
@@ -198,16 +203,17 @@ nav {
 }
 
 .main-content {
-  background-color: #f0f3f4;
+  /* background-color: #f0f3f4; */
+  background-color: #2d2d2d;
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  padding: 20px;
 }
 
-.top-container,
+/* .top-container,
 .middle-container,
 .bottom-container {
   height: 33%;
@@ -219,7 +225,7 @@ nav {
   justify-content: center;
   align-items: center;
   font-size: 1.5vw;
-}
+} */
 
 .search-container {
   width: 40%;
@@ -232,9 +238,13 @@ nav {
 .search-bar {
   padding: 5px 20px;
   width: 100%;
-  border: 1px solid #727272;
-  /* border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px; */
+  background-color: #464646;
+  color: floralwhite;
+  /* border: 1px solid #727272; */
+}
+
+.search-bar:focus {
+  outline: none;
 }
 
 .search-button {
@@ -257,8 +267,9 @@ nav {
   position: absolute;
   top: 100%;
   list-style: none;
-  background-color: white;
-  border-radius: 5px;
+  background-color: #464646;
+  border-radius: 0;
+  color: floralwhite;
 }
 
 .search-list {

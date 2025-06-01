@@ -11,17 +11,35 @@ const noJobFound = document.getElementById("no-job-found");
 const jobTemplate = document.getElementById("job-template");
 const jobModal = document.getElementById("myModal");
 const mainBar = document.getElementById("main-content");
+const displayAllJobs = document.getElementById("display-all-jobs");
 
 fetch("jobs.json")
   .then((res) => res.json())
   .then((data) => {
     jobList = data;
+    displayJobs(jobList);
   })
   .catch((err) => {
     console.error(err);
   });
 
 //display all jobs
+function displayJobs(jobs) {
+  jobs.forEach((job) => {
+    const clone = jobTemplate.content.cloneNode(true);
+
+    clone.querySelector(".job-title").textContent = job.title;
+    clone.querySelector(".job-company").textContent = job.company;
+    clone.querySelector(".job-location").textContent = job.location;
+    clone.querySelector(".job-salary").textContent = job.salary;
+    clone.querySelector(".job-type").textContent = job.type;
+    clone.querySelector(".job-description").textContent = job.description;
+    clone.querySelector(".job-apply").addEventListener("click", () => {
+      jobModal.style.display = "block";
+    });
+    document.getElementById("display-all-jobs").appendChild(clone);
+  });
+}
 
 // Search autocomplete
 search.addEventListener("input", () => {
@@ -51,15 +69,16 @@ search.addEventListener("input", () => {
     }
     existingTitle.add(job.title);
   });
+
+  if (searchVal == "") {
+    searchItem.innerHTML = "";
+  }
 });
 
-// display job results
+// display job jobs
 searchButton.addEventListener("click", () => {
   searchItem.style.display = "none";
   const searchInput = search.value.toLowerCase();
-  branding.style.display = "none";
-  middleContainer.style.display = "none";
-  bottomContainer.style.display = "none";
 
   if (searchInput == "") {
     noJobFound.innerHTML = "no jobs found";
@@ -92,11 +111,17 @@ searchButton.addEventListener("click", () => {
       jobModal.style.display = "block";
     });
     displayResult.appendChild(clone);
-    mainBar.style.background = "white";
   });
 });
 
 const modalClose = document.getElementById("modal-close");
 modalClose.addEventListener("click", () => {
   jobModal.style.display = "none";
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.getElementById("nav");
+
+  const navWidth = displayAllJobs.offsetWidth;
+  nav.style.width = `${navWidth}px`;
 });
