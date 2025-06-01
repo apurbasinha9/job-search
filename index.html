@@ -14,8 +14,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header id="header">
+      <nav id="nav">
         <div class="title">
           <a href="index.html" class="header-link">
             <h1>findjobs.ca</h1>
@@ -165,91 +165,10 @@
         </div>
       </div>
 
-      <div class="top-container">
-        <div class="branding-container">
-          <p class="branding" id="branding">
-            "Connecting talent with opportunity—faster and smarter. At
-            <span class="branding-span">FindJobs.ca</span>
-            , we empower job seekers with
-            <span class="branding-span"
-              >AI-driven tools, real-time alerts, and expert career
-              support</span
-            >
-            to help you land the right job—every time."
-          </p>
-        </div>
-      </div>
-
-      <div class="middle-container" id="middle-container">
-        <h2 class="company">Companies <i class="fa fa-arrow-right"></i></h2>
-        <div class="card-middle">
-          <div class="company-card">
-            <img
-              src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000"
-              alt=""
-            />
-          </div>
-          <div class="company-card">
-            <img
-              src="https://img.icons8.com/?size=100&id=21295&format=png&color=000000"
-              alt=""
-            />
-          </div>
-          <div class="company-card">
-            <img
-              src="https://img.icons8.com/?size=100&id=PvvcWRWxRKSR&format=png&color=000000"
-              alt=""
-            />
-          </div>
-          <div class="company-card">
-            <img
-              src="https://img.icons8.com/?size=100&id=30840&format=png&color=000000"
-              alt=""
-            />
-          </div>
-          <div class="company-card">
-            <img
-              src="https://img.icons8.com/?size=100&id=20519&format=png&color=000000"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="bottom-container" id="bottom-container">
-        <h2 class="services">Services <i class="fa fa-arrow-right"></i></h2>
-        <div class="service-cards">
-          <div class="card">
-            <h3>AI Resume Builder</h3>
-            <p class="card-text">
-              Recommend jobs based on users’ skills, experience, and
-              preferences.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Smart Job Matching</h3>
-            <p class="card-text">
-              Help users create professional resumes instantly using AI.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Real-Time Job Alerts</h3>
-            <p class="card-text">
-              Notify users when new jobs matching their interests are posted.
-              lore
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Networking Tools</h3>
-            <p class="card-text">
-              Connect job seekers with professionals or mentors.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div
+        id="display-all-jobs"
+        class="display-all-jobs w-[85%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4"
+      ></div>
     </main>
 
     <!-- job card template -->
@@ -261,8 +180,8 @@
         <p class="job-location"></p>
         <p class="job-salary"></p>
         <p class="job-type"></p>
-        <button class="job-apply">Apply</button>
         <p class="job-description"></p>
+        <button class="job-apply">Apply</button>
       </div>
     </template>
   </body>
