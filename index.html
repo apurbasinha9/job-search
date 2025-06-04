@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="script.js" defer></script>
+    <script type="module" src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -22,15 +22,15 @@
           </a>
         </div>
         <div class="navlinks">
-          <a href="login/login.html" class="signin">Signin</a>
+          <a href="#" id="profile"></a>
+          <a href="#" id="signout">SignOut</a>
+          <a href="login/login.html" id="signin" class="signin">Signin</a>
           <a href="register/register.html" id="register" class="register"
             >Signup</a
           >
         </div>
       </nav>
     </header>
-
-    <!-- <aside></aside> -->
 
     <main id="main-content" class="main-content">
       <div id="search-container" class="search-container">
@@ -166,10 +166,22 @@
       </div>
 
       <div
+        id="display-few-jobs"
+        class="display-all-jobs w-[85%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4"
+      ></div>
+
+      <div
         id="display-all-jobs"
         class="display-all-jobs w-[85%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4"
       ></div>
     </main>
+
+    <footer>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis rem
+      tempora aut id, aperiam vero a. Voluptatibus saepe id obcaecati, odio amet
+      minima ratione minus accusantium molestiae quibusdam ducimus
+      reprehenderit!
+    </footer>
 
     <!-- job card template -->
 

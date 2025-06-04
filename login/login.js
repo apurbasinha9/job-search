@@ -28,10 +28,13 @@ btn.addEventListener("click", (e) => {
   signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       const user = userCredential.user;
-      window.location.href = "../view/homepage/homepage.html";
+      window.location.href = "../index.html";
     })
     .catch((error) => {
       const errorCode = error.code;
+      console.log(errorCode);
+
       const errorMessage = error.message;
+      console.log(errorMessage);
     });
 });

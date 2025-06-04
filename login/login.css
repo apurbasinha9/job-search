@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #f3f4f6;
+  background-color: #2d2d2d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,15 +14,15 @@ body {
 }
 
 .container {
-  width: 100%; /* w-full */
-  max-width: 28rem; /* max-w-md (448px) */
-  margin-left: auto; /* mx-auto */
+  width: 100%;
+  max-width: 28rem;
+  margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff; /* bg-white */
-  padding: 2rem; /* p-8 (32px) */
-  display: flex; /* flex */
-  flex-direction: column; /* flex-col */
-  justify-content: center; /* justify-center */
+  background-color: #373737;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .input-group {
@@ -50,7 +50,8 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  color: #646464;
+  color: #bdbdbd;
+
   font-size: 2rem;
   pointer-events: none;
 }
@@ -60,25 +61,26 @@ h1 {
 }
 
 label {
-  color: #646464;
+  color: #bdbdbd;
+
   margin-bottom: 8px;
 }
 
 .btn {
   width: 100%;
-  padding: 12px;
-  background-color: #60a5fa;
+  padding: 1rem;
+  background-color: #5d5d5d;
   color: white;
   border: none;
   font-weight: bold;
-  font-size: 1.55vw;
+  font-size: 1.1rem;
   border-radius: 10px;
   cursor: pointer;
   margin-bottom: 18px;
 }
 
 .btn:hover {
-  background-color: rgb(67, 100, 161);
+  background-color: #535252;
 }
 .not-registered {
   text-align: center;
@@ -91,21 +93,28 @@ label {
 }
 
 .not-registered {
-  color: #646464;
+  color: #bdbdbd;
 }
 
 input {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid black;
+  background-color: #464646;
   margin-bottom: 0.5rem;
+  border: none;
+  color: floralwhite;
+}
+
+input:focus {
+  outline: none;
+  caret-color: white;
 }
 
 .forgot-password {
-  margin: 10px 0 8px 0;
+  margin: 1.5rem 0 0.5rem 0;
   text-decoration: none;
-  color: #316cb4;
+  color: #60a5fa;
 }
 
 @media (max-width: 768px) {
