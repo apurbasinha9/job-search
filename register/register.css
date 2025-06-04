@@ -3,10 +3,21 @@
 }
 
 input {
-  border: 1px solid gray;
+  border: none;
   padding: 10px;
   border-radius: 5px;
   width: 100%;
+  background-color: #464646;
+  color: floralwhite;
+}
+
+input:focus {
+  outline: none;
+  caret-color: white;
+}
+
+input::placeholder {
+  color: #6a6868;
 }
 
 .header {

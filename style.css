@@ -14,7 +14,8 @@ body {
   grid-template-rows: auto 1fr;
   grid-template-areas:
     "navbar navbar"
-    "mainbar mainbar";
+    "mainbar mainbar"
+    "footerBar footerBar";
 }
 
 header {
@@ -36,6 +37,14 @@ header {
 
 main {
   grid-area: mainbar;
+}
+
+footer {
+  grid-area: footerBar;
+  background-color: #373737;
+  color: #bdbdbd;
+  text-align: center;
+  padding: 50px 30px;
 }
 
 nav {
@@ -193,6 +202,24 @@ nav {
   font-weight: 700;
 }
 
+#signout {
+  display: none;
+}
+
+#signout:hover {
+  background-color: #515050;
+  color: white;
+}
+
+#profile {
+  display: none;
+}
+
+#profile:hover {
+  background-color: #515050;
+  color: white;
+}
+
 .signin {
   margin-right: 5px;
 }
@@ -217,20 +244,6 @@ nav {
   align-items: center;
   padding: 20px;
 }
-
-/* .top-container,
-.middle-container,
-.bottom-container {
-  height: 33%;
-}
-
-.top-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5vw;
-} */
 
 .search-container {
   width: 40%;
