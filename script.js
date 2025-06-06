@@ -14,6 +14,7 @@ import {
 const search = document.getElementById("search");
 const searchButton = document.getElementById("search-button");
 const searchItem = document.getElementById("search-item");
+const searchedJobs = document.getElementById("searched-jobs");
 const searchContainer = document.getElementById("search-container");
 const displayResult = document.getElementById("display-result");
 const noJobFound = document.getElementById("no-job-found");
@@ -71,7 +72,7 @@ onAuthStateChanged(auth, async (user) => {
       displayJobs(jobList);
     }
   } else {
-    console.log(error);
+    console.log("not current user");
   }
 });
 
@@ -178,45 +179,47 @@ search.addEventListener("input", () => {
 searchButton.addEventListener("click", () => {
   displayAllJobs.style.display = "none";
   displaySomeJobs.style.display = "none";
-
   searchItem.style.display = "none";
   const searchInput = search.value.toLowerCase();
 
   if (searchInput == "") {
     noJobFound.innerHTML = "no jobs found";
+    noJobFound.style.color = "#bdbdbd";
     return;
-  }
-  noJobFound.style.display = "none";
+  } else {
+    noJobFound.style.display = "none";
+    displayResult.innerHTML = "";
 
-  const results = jobList.filter((job) => {
-    return job.title.toLowerCase().includes(searchInput.toLowerCase());
-  });
-  console.log(searchInput);
+    searchedJobs.innerHTML = "";
+    const p = document.createElement("p");
+    p.innerText = "Job searched: " + searchInput;
+    p.style.color = "#bdbdbd";
+    searchedJobs.appendChild(p);
+    searchedJobs.style.display = "block";
 
-  const searchedJobs = document.getElementById("searched-jobs");
-  searchedJobs.innerHTML = "";
-  const p = document.createElement("p");
-  p.innerText = "Job searched: " + searchInput;
-  p.style.color = "#bdbdbd";
-  searchedJobs.appendChild(p);
-  searchedJobs.style.display = "block";
-
-  results.forEach((job) => {
-    const clone = jobTemplate.content.cloneNode(true);
-
-    clone.querySelector(".job-title").textContent = job.title;
-    clone.querySelector(".job-company").textContent = job.company;
-    clone.querySelector(".job-location").textContent = job.location;
-    clone.querySelector(".job-salary").textContent = job.salary;
-    clone.querySelector(".job-type").textContent = job.type;
-    clone.querySelector(".job-description").textContent = job.description;
-    clone.querySelector(".job-apply").addEventListener("click", () => {
-      jobModal.style.display = "block";
+    const results = jobList.filter((job) => {
+      return job.title.toLowerCase().includes(searchInput.toLowerCase());
     });
-    displayResult.appendChild(clone);
-  });
+
+    results.forEach((job) => {
+      const clone = jobTemplate.content.cloneNode(true);
+      clone.querySelector(".job-title").textContent = job.title;
+      clone.querySelector(".job-company").textContent = job.company;
+      clone.querySelector(".job-location").textContent = job.location;
+      clone.querySelector(".job-salary").textContent = job.salary;
+      clone.querySelector(".job-type").textContent = job.type;
+      clone.querySelector(".job-description").textContent = job.description;
+      clone.querySelector(".job-apply").addEventListener("click", () => {
+        jobModal.style.display = "block";
+      });
+      displayResult.style.display = "block";
+      displayResult.appendChild(clone);
+    });
+    console.log(results);
+  }
 });
 
+//modal
 const modalClose = document.getElementById("modal-close");
 modalClose.addEventListener("click", () => {
   jobModal.style.display = "none";
