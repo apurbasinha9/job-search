@@ -180,6 +180,8 @@ searchButton.addEventListener("click", () => {
   displayAllJobs.style.display = "none";
   displaySomeJobs.style.display = "none";
   searchItem.style.display = "none";
+  displayResult.innerHTML = "";
+
   const searchInput = search.value.toLowerCase();
 
   if (searchInput == "") {
@@ -188,14 +190,15 @@ searchButton.addEventListener("click", () => {
     return;
   } else {
     noJobFound.style.display = "none";
-    displayResult.innerHTML = "";
 
     searchedJobs.innerHTML = "";
+    searchedJobs.style.width = `${displayResult.offsetWidth}px`;
     const p = document.createElement("p");
     p.innerText = "Job searched: " + searchInput;
     p.style.color = "#bdbdbd";
     searchedJobs.appendChild(p);
     searchedJobs.style.display = "block";
+    displayResult.style.marginTop = 0;
 
     const results = jobList.filter((job) => {
       return job.title.toLowerCase().includes(searchInput.toLowerCase());
@@ -215,7 +218,7 @@ searchButton.addEventListener("click", () => {
       displayResult.style.display = "block";
       displayResult.appendChild(clone);
     });
-    console.log(results);
+    search.value = "";
   }
 });
 
