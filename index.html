@@ -49,8 +49,8 @@
         </div>
       </div>
 
+      <div id="searched-jobs" class="searched-jobs"></div>
       <div class="display-result" id="display-result">
-        <div id="searched-jobs" class="searched-jobs"></div>
         <p class="no-job-found" id="no-job-found"></p>
       </div>
 
@@ -59,9 +59,9 @@
         <div class="modal-content">
           <div
             id="job-application"
-            class="bg-white rounded-md w-full md:w-96 md:max-w-full mx-auto"
+            class="bg-[#373737] rounded-md w-full md:w-96 md:max-w-full mx-auto"
           >
-            <div class="p-6 border border-gray-300 sm:rounded-md">
+            <div class="p-6 sm:rounded-md">
               <form
                 method="POST"
                 action="https://herotofu.com/start"
@@ -72,31 +72,31 @@
                 </div>
 
                 <label class="block mb-6">
-                  <span class="text-gray-700">Your name</span>
+                  <span class="text-[#bdbdbd]">Your name</span>
                   <input
                     required
                     name="name"
                     type="text"
-                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="bg-[#464646] w-full mt-1 p-2 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     placeholder="Joe Bloggs"
                   />
                 </label>
                 <label class="block mb-6">
-                  <span class="text-gray-700">Email address</span>
+                  <span class="text-[#bdbdbd]">Email address</span>
                   <input
                     required
                     name="email"
                     type="email"
-                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="bg-[#464646] block w-full mt-1 p-2 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     placeholder="joe.bloggs@example.com"
                   />
                 </label>
                 <label class="block mb-6">
-                  <span class="text-gray-700">Years of experience</span>
+                  <span class="text-[#bdbdbd]">Years of experience</span>
                   <select
                     required
                     name="experience"
-                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="bg-[#464646] text-[#9ca3af] block w-full mt-1 p-2 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                   >
                     <option>Less than a year</option>
                     <option>1 - 2 years</option>
@@ -107,21 +107,23 @@
                   </select>
                 </label>
                 <label class="block mb-6">
-                  <span class="text-gray-700">Tell us more about yourself</span>
+                  <span class="text-[#bdbdbd]"
+                    >Tell us more about yourself</span
+                  >
                   <textarea
                     name="message"
-                    class="block w-full mt-1 p-1 border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="bg-[#464646] block w-full mt-1 p-2 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     rows="3"
                     placeholder="What motivates you?"
                   ></textarea>
                 </label>
                 <label class="block mb-6">
-                  <span class="text-gray-700">Your CV</span>
+                  <span class="text-[#bdbdbd]">Your CV</span>
                   <input
                     required
                     name="cv"
                     type="file"
-                    class="block w-full mt-1 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="block file:py-1 file:px-2 file:bg-[#5d5d5d] file:text-white file:rounded-md file:border file:border-0 text-[#bdbdbd] w-full mt-1"
                   />
                 </label>
                 <div class="mb-6">
@@ -135,7 +137,9 @@
                           class="text-indigo-600 border-gray-300 rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
                           checked
                         />
-                        <span class="ml-2">You'd like to work remotely</span>
+                        <span class="ml-2 text-[#bdbdbd]"
+                          >You'd like to work remotely</span
+                        >
                       </label>
                     </div>
                     <div>
@@ -146,7 +150,9 @@
                           type="radio"
                           class="text-indigo-600 border-gray-300 rounded-full shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
                         />
-                        <span class="ml-2">You'd prefer to work onsite</span>
+                        <span class="ml-2 text-[#bdbdbd]"
+                          >You'd prefer to work onsite</span
+                        >
                       </label>
                     </div>
                   </div>
