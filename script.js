@@ -27,6 +27,7 @@ const signin = document.getElementById("signin");
 const signup = document.getElementById("register");
 const profileName = document.getElementById("profile");
 const signout = document.getElementById("signout");
+const footerWrapper = document.getElementById("footer-wrapper");
 let currentUser = null;
 let jobList = [];
 
@@ -267,4 +268,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const navWidth = displayAllJobs.offsetWidth;
   nav.style.width = `${navWidth}px`;
+
+  if (window.innerWidth >= 768) {
+    footerWrapper.style.width = `${navWidth}px`;
+  }
 });

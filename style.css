@@ -45,6 +45,9 @@ footer {
   color: #bdbdbd;
   text-align: center;
   padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
@@ -430,6 +433,7 @@ nav {
 
 .language {
   width: 33%;
+  text-align: start;
 }
 
 .social-links {
@@ -442,6 +446,7 @@ nav {
 
 .copyright {
   width: 33%;
+  text-align: end;
 }
 
 /* mobile styling */
