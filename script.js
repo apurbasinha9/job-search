@@ -29,6 +29,11 @@ const profileName = document.getElementById("profile");
 const signout = document.getElementById("signout");
 const footerWrapper = document.getElementById("footer-wrapper");
 let currentUser = null;
+let currentPage = 1;
+let totalPages = 1;
+const itemsPerPage = 12;
+const nextButton = document.getElementById("nextButton");
+const prevButton = document.getElementById("prevButton");
 let jobList = [];
 
 const firebaseConfig = {
@@ -52,31 +57,6 @@ function hideAuthenticationLinks(docData) {
   profileName.innerText = docData.data().fullName;
 }
 
-// ✅ Detect signed-in user on homepage
-// onAuthStateChanged(auth, async (user) => {
-//   if (user) {
-//     currentUser = user;
-
-//     const db = getFirestore();
-//     const docRef = doc(db, "users", user.uid);
-//     const docData = await getDoc(docRef);
-
-//     hideAuthenticationLinks(docData);
-
-//     if (docData.exists()) {
-//       console.log("successfull!");
-//     } else {
-//       console.log("no data");
-//     }
-
-//     if (jobList.length > 0) {
-//       displayJobs(jobList, currentUser);
-//     }
-//   } else {
-//     console.log("not current user");
-//   }
-// });
-
 onAuthStateChanged(auth, async (user) => {
   currentUser = user;
 
@@ -93,12 +73,13 @@ onAuthStateChanged(auth, async (user) => {
     .then((res) => res.json())
     .then((data) => {
       jobList = data;
-
-      if (currentUser) {
-        displayJobs(jobList, currentUser);
-      } else {
-        displayFewJobs(jobList);
-      }
+      totalPages = Math.ceil(jobList.length / itemsPerPage);
+      displayJobs(jobList, currentUser, currentPage);
+      // if (currentUser) {
+      //   displayJobs(jobList, currentUser);
+      // } else {
+      //   displayFewJobs(jobList);
+      // }
     })
     .catch((err) => {
       console.error(err);
@@ -116,23 +97,17 @@ signout.addEventListener("click", () => {
     });
 });
 
-// fetch("jobs.json")
-//   .then((res) => res.json())
-//   .then((data) => {
-//     jobList = data;
-//     if (currentUser) {
-//       displayJobs(jobList, currentUser);
-//     } else {
-//       displayFewJobs(jobList);
-//     }
-//   })
-//   .catch((err) => {
-//     console.error(err);
-//   });
-
 //display all jobs
-function displayJobs(jobs, currentUser) {
-  jobs.forEach((job) => {
+function displayJobs(jobs, currentUser, page) {
+  displayAllJobs.innerHTML = "";
+
+  disablePrevAndNextButton(page);
+
+  const startIndex = (page - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedJobs = jobs.slice(startIndex, endIndex);
+
+  paginatedJobs.forEach((job) => {
     const clone = jobTemplate.content.cloneNode(true);
 
     clone.querySelector(".job-title").textContent = job.title;
@@ -146,9 +121,39 @@ function displayJobs(jobs, currentUser) {
         jobModal.style.display = "block";
       }
     });
-    document.getElementById("display-all-jobs").appendChild(clone);
+    displayAllJobs.appendChild(clone);
   });
 }
+
+function disablePrevAndNextButton(page) {
+  if (page <= 1) {
+    prevButton.disabled = true;
+    prevButton.classList.add("disabledPrevButton");
+  } else {
+    prevButton.disabled = false;
+    prevButton.classList.remove("disabledPrevButton");
+  }
+
+  if (page >= totalPages) {
+    nextButton.classList.add("disabledNextButton");
+  } else {
+    nextButton.classList.remove("disabledNextButton");
+  }
+}
+
+prevButton.addEventListener("click", () => {
+  if (currentPage > 1) {
+    currentPage--;
+    displayJobs(jobList, currentUser, currentPage);
+  }
+});
+
+nextButton.addEventListener("click", () => {
+  if (currentPage < totalPages) {
+    currentPage++;
+    displayJobs(jobList, currentUser, currentPage);
+  }
+});
 
 //display few jobs
 function displayFewJobs(jobs) {
@@ -263,13 +268,16 @@ modalClose.addEventListener("click", () => {
   jobModal.style.display = "none";
 });
 
-document.addEventListener("DOMContentLoaded", () => {
+function jsWidthChanges() {
   const nav = document.getElementById("nav");
-
   const navWidth = displayAllJobs.offsetWidth;
   nav.style.width = `${navWidth}px`;
+  document.getElementById("pagination-container").style.width = `${navWidth}px`;
 
   if (window.innerWidth >= 768) {
     footerWrapper.style.width = `${navWidth}px`;
   }
-});
+}
+
+document.addEventListener("DOMContentLoaded", jsWidthChanges);
+window.addEventListener("resize", jsWidthChanges);
