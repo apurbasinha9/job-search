@@ -75,11 +75,6 @@ onAuthStateChanged(auth, async (user) => {
       jobList = data;
       totalPages = Math.ceil(jobList.length / itemsPerPage);
       displayJobs(jobList, currentUser, currentPage);
-      // if (currentUser) {
-      //   displayJobs(jobList, currentUser);
-      // } else {
-      //   displayFewJobs(jobList);
-      // }
     })
     .catch((err) => {
       console.error(err);
@@ -117,8 +112,8 @@ function displayJobs(jobs, currentUser, page) {
     clone.querySelector(".job-type").textContent = job.type;
     clone.querySelector(".job-description").textContent = job.description;
     clone.querySelector(".job-apply").addEventListener("click", () => {
-      if (currentUser) {
-        jobModal.style.display = "block";
+      if (currentUser == null) {
+        alert("please sign in to apply for jobs!");
       }
     });
     displayAllJobs.appendChild(clone);
@@ -154,32 +149,6 @@ nextButton.addEventListener("click", () => {
     displayJobs(jobList, currentUser, currentPage);
   }
 });
-
-//display few jobs
-function displayFewJobs(jobs) {
-  console.log(currentUser);
-
-  const fewJobs = jobs.slice(0, 9);
-  console.log(fewJobs);
-
-  fewJobs.forEach((job) => {
-    const clone = jobTemplate.content.cloneNode(true);
-
-    clone.querySelector(".job-title").textContent = job.title;
-    clone.querySelector(".job-company").textContent = job.company;
-    clone.querySelector(".job-location").textContent = job.location;
-    clone.querySelector(".job-salary").textContent = job.salary;
-    clone.querySelector(".job-type").textContent = job.type;
-    clone.querySelector(".job-description").textContent = job.description;
-    clone.querySelector(".job-apply").addEventListener("click", () => {
-      document.getElementById("job-application").style.display = "none";
-      if (currentUser == null) {
-        alert("please sign in to apply and track your progress!");
-      }
-    });
-    displaySomeJobs.appendChild(clone);
-  });
-}
 
 // Search autocomplete
 search.addEventListener("input", () => {
