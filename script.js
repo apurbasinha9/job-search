@@ -114,6 +114,8 @@ function displayJobs(jobs, currentUser, page) {
     clone.querySelector(".job-apply").addEventListener("click", () => {
       if (currentUser == null) {
         alert("please sign in to apply for jobs!");
+      } else {
+        jobModal.style.display = "block";
       }
     });
     displayAllJobs.appendChild(clone);
