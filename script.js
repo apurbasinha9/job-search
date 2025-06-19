@@ -7,6 +7,7 @@ import {
 
 import {
   getFirestore,
+  getDocs,
   getDoc,
   doc,
   addDoc,
@@ -30,7 +31,10 @@ const signup = document.getElementById("register");
 const profileName = document.getElementById("profile");
 const signout = document.getElementById("signout");
 const footerWrapper = document.getElementById("footer-wrapper");
+const jobApplicationForm = document.getElementById("job-application-form");
 let currentUser = null;
+let selectedJobId = null;
+let jobTitle = "";
 let currentPage = 1;
 let totalPages = 1;
 const itemsPerPage = 12;
@@ -70,26 +74,12 @@ onAuthStateChanged(auth, async (user) => {
     hideAuthenticationLinks(docData);
   }
 
-  const shouldUploadToFirebase = !localStorage.getItem("jobsUploaded");
-
-  // Now fetch jobs AFTER determining the user state
-  fetch("jobs.json")
-    .then((res) => res.json())
-    .then((data) => {
-      jobList = data;
-      totalPages = Math.ceil(jobList.length / itemsPerPage);
-      displayJobs(jobList, currentUser, currentPage);
-
-      if (shouldUploadToFirebase) {
-        jobList.forEach((job) => {
-          addDoc(collection(db, "jobs"), job);
-        });
-        localStorage.setItem("jobsUploaded", "true");
-      }
-    })
-    .catch((err) => {
-      console.error(err);
-    });
+  const querySnapshot = await getDocs(collection(db, "jobs"));
+  querySnapshot.forEach((doc) => {
+    jobList = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+    totalPages = Math.ceil(jobList.length / itemsPerPage);
+    displayJobs(jobList, currentUser, currentPage);
+  });
 });
 
 //signout user
@@ -126,12 +116,38 @@ function displayJobs(jobs, currentUser, page) {
       if (currentUser == null) {
         alert("please sign in to apply for jobs!");
       } else {
+        selectedJobId = job.id;
+        jobTitle = job.title;
         jobModal.style.display = "block";
       }
     });
     displayAllJobs.appendChild(clone);
   });
 }
+
+jobApplicationForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const db = getFirestore();
+  const formData = new FormData(jobApplicationForm);
+
+  const application = {
+    jobID: selectedJobId,
+    userID: currentUser.uid,
+    candidateName: formData.get("name"),
+    candidateEmail: formData.get("email"),
+    candidateExperience: formData.get("experience"),
+    candidateMessage: formData.get("message"),
+    jobTitle: jobTitle,
+  };
+
+  try {
+    await addDoc(collection(db, "job-applications"), application);
+    jobModal.style.display = "none";
+    selectedJobId = null;
+  } catch (error) {
+    console.log(error);
+  }
+});
 
 function disablePrevAndNextButton(page) {
   if (page <= 1) {
