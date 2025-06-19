@@ -9,6 +9,8 @@ import {
   getFirestore,
   getDoc,
   doc,
+  addDoc,
+  collection,
 } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-firestore.js";
 
 const search = document.getElementById("search");
@@ -68,6 +70,8 @@ onAuthStateChanged(auth, async (user) => {
     hideAuthenticationLinks(docData);
   }
 
+  const shouldUploadToFirebase = !localStorage.getItem("jobsUploaded");
+
   // Now fetch jobs AFTER determining the user state
   fetch("jobs.json")
     .then((res) => res.json())
@@ -75,6 +79,13 @@ onAuthStateChanged(auth, async (user) => {
       jobList = data;
       totalPages = Math.ceil(jobList.length / itemsPerPage);
       displayJobs(jobList, currentUser, currentPage);
+
+      if (shouldUploadToFirebase) {
+        jobList.forEach((job) => {
+          addDoc(collection(db, "jobs"), job);
+        });
+        localStorage.setItem("jobsUploaded", "true");
+      }
     })
     .catch((err) => {
       console.error(err);
