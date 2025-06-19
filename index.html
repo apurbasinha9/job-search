@@ -63,11 +63,10 @@
             class="bg-[#373737] rounded-md w-full md:w-96 md:max-w-full mx-auto"
           >
             <div class="p-6 sm:rounded-md">
+              <div class="w-full flex flex-row-reverse">
+                <span id="modal-close">&times;</span>
+              </div>
               <form id="job-application-form" enctype="multipart/form-data">
-                <div class="w-full flex flex-row-reverse">
-                  <span id="modal-close">&times;</span>
-                </div>
-
                 <label class="block mb-6">
                   <span class="text-[#bdbdbd]">Your name</span>
                   <input
@@ -132,6 +131,9 @@
                   </button>
                 </div>
               </form>
+              <div id="application-confirmation">
+                <h2>Thank you for applying to the job!</h2>
+              </div>
             </div>
           </div>
         </div>

@@ -32,6 +32,9 @@ const profileName = document.getElementById("profile");
 const signout = document.getElementById("signout");
 const footerWrapper = document.getElementById("footer-wrapper");
 const jobApplicationForm = document.getElementById("job-application-form");
+const applicationConfirmation = document.getElementById(
+  "application-confirmation"
+);
 let currentUser = null;
 let selectedJobId = null;
 let jobTitle = "";
@@ -142,7 +145,9 @@ jobApplicationForm.addEventListener("submit", async (e) => {
 
   try {
     await addDoc(collection(db, "job-applications"), application);
-    jobModal.style.display = "none";
+    jobApplicationForm.style.display = "none";
+    applicationConfirmation.style.display = "block";
+
     selectedJobId = null;
   } catch (error) {
     console.log(error);

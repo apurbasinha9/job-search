@@ -195,6 +195,16 @@ nav {
   background-color: #535252;
 }
 
+#application-confirmation {
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin-top: 20px;
+}
+
 .navlinks a {
   text-decoration: none;
   border-radius: 5px;
