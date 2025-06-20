@@ -35,6 +35,7 @@ const jobApplicationForm = document.getElementById("job-application-form");
 const applicationConfirmation = document.getElementById(
   "application-confirmation"
 );
+const loader = document.getElementById("loader");
 let currentUser = null;
 let selectedJobId = null;
 let jobTitle = "";
@@ -66,12 +67,20 @@ function hideAuthenticationLinks(docData) {
   profileName.innerText = docData.data().fullName;
 }
 
+function displayLoaderAfterSignin() {
+  loader.style.display = "none";
+  displayAllJobs.style.display = "grid";
+}
+
 onAuthStateChanged(auth, async (user) => {
   currentUser = user;
 
   const db = getFirestore();
 
   if (user) {
+    loader.style.display = "block";
+    displayAllJobs.style.display = "none";
+    setTimeout(displayLoaderAfterSignin, 500);
     const docRef = doc(db, "users", user.uid);
     const docData = await getDoc(docRef);
     hideAuthenticationLinks(docData);
@@ -147,7 +156,6 @@ jobApplicationForm.addEventListener("submit", async (e) => {
     await addDoc(collection(db, "job-applications"), application);
     jobApplicationForm.style.display = "none";
     applicationConfirmation.style.display = "block";
-
     selectedJobId = null;
   } catch (error) {
     console.log(error);
